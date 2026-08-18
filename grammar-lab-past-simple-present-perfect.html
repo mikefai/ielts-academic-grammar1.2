@@ -1,0 +1,2065 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grammar Lab — Past Simple vs Present Perfect (IELTS Speaking, Band 5.5 → 7.0)</title>
+<meta name="description" content="A diagnostic grammar lab for IELTS Academic Speaking: past simple vs present perfect. Independent practice resource — not an official IELTS product or score.">
+<style>
+/* ============================================================
+   DESIGN TOKENS
+   ============================================================ */
+:root{
+  --paper:#FBF9F5;
+  --card:#FFFFFF;
+  --ink:#13212C;
+  --ink-2:#4A5C6B;
+  --ink-3:#6E7F8C;
+  --line:#DED7CB;
+  --line-2:#EDE7DD;
+  --accent:#0E5B62;
+  --accent-dk:#0A464C;
+  --accent-soft:#E4EFEF;
+  --gold:#7E5A0E;
+  --gold-soft:#FAF0D8;
+  --gold-line:#E4CE96;
+  --ok:#19673A;
+  --ok-soft:#E2F1E8;
+  --ok-line:#A9CFBB;
+  --no:#9E2A2A;
+  --no-soft:#FAE9E9;
+  --no-line:#E0B4B4;
+  --shadow:0 1px 2px rgba(19,33,44,.05), 0 6px 18px -10px rgba(19,33,44,.22);
+  --radius:14px;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+
+html{-webkit-text-size-adjust:100%}
+
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:18px;
+  line-height:1.65;
+  letter-spacing:.001em;
+}
+
+@media (max-width:640px){ body{font-size:17px} }
+
+/* ---------- Accessibility helpers ---------- */
+.sr-only{
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+  overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;
+}
+.skip{
+  position:absolute;left:-999px;top:0;z-index:200;
+  background:var(--accent);color:#fff;padding:.7rem 1.1rem;border-radius:0 0 10px 0;
+  font-weight:650;text-decoration:none;
+}
+.skip:focus{left:0}
+
+:focus-visible{
+  outline:3px solid var(--accent);
+  outline-offset:3px;
+  border-radius:6px;
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms !important;transition-duration:.001ms !important}
+}
+
+/* ---------- Layout ---------- */
+.wrap{max-width:1060px;margin:0 auto;padding:0 clamp(16px,4vw,32px)}
+
+section.band{padding:clamp(38px,6vw,68px) 0;border-top:1px solid var(--line-2)}
+section.band:first-of-type{border-top:0}
+
+h1,h2,h3,h4{font-family:var(--serif);font-weight:600;line-height:1.18;margin:0 0 .5em;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,5.2vw,3.05rem)}
+h2{font-size:clamp(1.5rem,3.4vw,2.1rem)}
+h3{font-size:clamp(1.16rem,2.2vw,1.36rem)}
+h4{font-size:1.03rem;font-family:var(--sans);font-weight:700;letter-spacing:.005em}
+p{margin:0 0 1em}
+p:last-child{margin-bottom:0}
+
+.eyebrow{
+  font-family:var(--sans);font-size:.76rem;font-weight:750;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--accent);
+  margin:0 0 .85rem;display:flex;align-items:center;gap:.6rem;
+}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--line);max-width:180px}
+
+.lede{font-size:1.1rem;color:var(--ink-2);max-width:68ch}
+
+/* ---------- Header / hero ---------- */
+.masthead{
+  background:linear-gradient(178deg,#0E5B62 0%,#0A464C 62%,#08383D 100%);
+  color:#EAF3F2;padding:clamp(34px,6vw,64px) 0 clamp(30px,5vw,52px);
+}
+.masthead .eyebrow{color:#8FC7C5}
+.masthead .eyebrow::after{background:rgba(255,255,255,.24)}
+.masthead h1{color:#fff;max-width:19ch}
+.masthead .lede{color:#CFE2E1;font-size:clamp(1.02rem,2vw,1.16rem)}
+
+.metabar{
+  display:flex;flex-wrap:wrap;gap:.5rem;margin:1.5rem 0 0;padding:0;list-style:none;
+}
+.metabar li{
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);
+  border-radius:999px;padding:.34rem .85rem;font-size:.83rem;font-weight:600;color:#DCEBEA;
+}
+
+.outcomes{
+  margin:2rem 0 0;padding:0;list-style:none;display:grid;gap:.85rem;
+  grid-template-columns:repeat(auto-fit,minmax(255px,1fr));
+}
+.outcomes li{
+  background:rgba(255,255,255,.075);border:1px solid rgba(255,255,255,.17);
+  border-radius:var(--radius);padding:1.05rem 1.15rem;font-size:.95rem;color:#DFEDEC;line-height:1.55;
+}
+.outcomes b{display:block;color:#fff;font-family:var(--sans);font-size:.72rem;letter-spacing:.13em;
+  text-transform:uppercase;margin-bottom:.4rem;font-weight:750;color:#8FC7C5}
+
+.hero-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:2rem;align-items:center}
+
+.disclaimer{
+  margin-top:1.8rem;font-size:.82rem;color:#A9C9C7;border-top:1px solid rgba(255,255,255,.16);
+  padding-top:.95rem;max-width:76ch;
+}
+
+/* ---------- Buttons ---------- */
+button{font:inherit}
+.btn{
+  display:inline-flex;align-items:center;gap:.5rem;
+  background:var(--accent);color:#fff;border:1px solid var(--accent);
+  padding:.68rem 1.25rem;border-radius:10px;font-weight:650;font-size:.95rem;
+  cursor:pointer;text-decoration:none;transition:background .16s ease,transform .16s ease,box-shadow .16s ease;
+}
+.btn:hover{background:var(--accent-dk);border-color:var(--accent-dk)}
+.btn:active{transform:translateY(1px)}
+.btn.lg{padding:.85rem 1.7rem;font-size:1.02rem;border-radius:12px}
+.btn.on-dark{background:#fff;color:var(--accent-dk);border-color:#fff}
+.btn.on-dark:hover{background:#DFEDEC}
+.btn.ghost{background:transparent;color:var(--accent);border-color:var(--line)}
+.btn.ghost:hover{background:var(--accent-soft);border-color:var(--accent)}
+.btn.ghost.on-dark{background:transparent;color:#DFEDEC;border-color:rgba(255,255,255,.4)}
+.btn.ghost.on-dark:hover{background:rgba(255,255,255,.12)}
+.btn.sm{padding:.44rem .85rem;font-size:.85rem;border-radius:8px}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+
+/* ---------- Sticky progress ---------- */
+.progress-bar{
+  position:sticky;top:0;z-index:80;background:rgba(251,249,245,.94);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line);
+}
+.progress-inner{
+  max-width:1060px;margin:0 auto;padding:.6rem clamp(16px,4vw,32px);
+  display:flex;align-items:center;gap:.9rem;flex-wrap:wrap;
+}
+.pmeter{flex:1;min-width:140px;height:9px;background:var(--line-2);border-radius:99px;overflow:hidden;border:1px solid var(--line)}
+.pmeter>span{display:block;height:100%;width:0%;background:var(--accent);transition:width .35s ease;border-radius:99px}
+.ptext{font-size:.83rem;font-weight:650;color:var(--ink-2);white-space:nowrap;font-variant-numeric:tabular-nums}
+.toolbar{display:flex;gap:.4rem;flex-wrap:wrap}
+.t-short{display:none}
+@media (max-width:620px){
+  .progress-inner{padding:.5rem clamp(12px,4vw,32px);gap:.55rem}
+  .t-full{display:none}
+  .t-short{display:inline}
+  .toolbar .btn.sm{padding:.38rem .6rem;font-size:.8rem}
+  .ptext{font-size:.76rem}
+  .pmeter{min-width:70px;height:8px}
+}
+
+/* ---------- Cards ---------- */
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:clamp(18px,3vw,26px);box-shadow:var(--shadow);
+}
+.card + .card{margin-top:1rem}
+
+.note{
+  border-left:4px solid var(--accent);background:var(--accent-soft);
+  border-radius:0 10px 10px 0;padding:1rem 1.15rem;font-size:.95rem;color:#123F43;
+}
+.note.l1{border-left-color:var(--gold);background:var(--gold-soft);color:#5C420A}
+.note.rule{border-left-color:var(--gold);background:var(--gold-soft);color:#5C420A;font-size:1.02rem}
+.note h4{margin:0 0 .35rem;color:inherit}
+.note p:last-child{margin-bottom:0}
+
+/* ---------- Tables ---------- */
+.tscroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:#fff;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:.93rem}
+caption{
+  text-align:left;font-weight:700;padding:.9rem 1rem .2rem;color:var(--ink);
+  font-size:.95rem;caption-side:top;
+}
+th,td{padding:.7rem .9rem;text-align:left;vertical-align:top;border-bottom:1px solid var(--line-2)}
+thead th{
+  background:#F4F1EA;font-size:.75rem;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--ink-2);font-weight:750;border-bottom:1px solid var(--line);
+}
+tbody th{font-weight:650;color:var(--ink);width:23%}
+tbody tr:last-child td,tbody tr:last-child th{border-bottom:0}
+td em,th em{font-style:italic;color:var(--accent-dk);font-weight:600}
+.ex{font-family:var(--serif);font-size:1.01em}
+
+/* ---------- Contrast pairs ---------- */
+.pairs{display:grid;gap:.75rem;margin-top:1rem}
+.pair{border:1px solid var(--line);border-radius:12px;background:#fff;overflow:hidden}
+.pair > button{
+  width:100%;text-align:left;background:none;border:0;padding:1rem 1.15rem;cursor:pointer;
+  display:flex;gap:.9rem;align-items:flex-start;color:var(--ink);
+}
+.pair > button:hover{background:#F7F4EE}
+.pair-sents{flex:1;display:grid;gap:.3rem;font-family:var(--serif);font-size:1.03rem}
+.pair-sents span{display:block}
+.pair-sents span::before{
+  content:attr(data-lab);font-family:var(--sans);font-size:.68rem;font-weight:750;
+  letter-spacing:.1em;color:var(--ink-3);display:inline-block;width:2.4rem;
+}
+.chev{flex:0 0 auto;color:var(--accent);font-size:.8rem;font-weight:750;letter-spacing:.06em;
+  border:1px solid var(--line);border-radius:99px;padding:.2rem .6rem;margin-top:.15rem}
+.pair-body{padding:0 1.15rem 1.15rem;font-size:.94rem;color:var(--ink-2);border-top:1px solid var(--line-2);
+  padding-top:.95rem;margin-top:0}
+.pair-body[hidden]{display:none}
+
+/* ---------- Items ---------- */
+.itemlist{display:grid;gap:1rem;margin-top:1.4rem}
+
+.item{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:1.15rem 1.25rem;box-shadow:var(--shadow);position:relative;
+}
+.item.correct{border-color:var(--ok-line);box-shadow:inset 4px 0 0 var(--ok),var(--shadow)}
+.item.wrong{border-color:var(--no-line);box-shadow:inset 4px 0 0 var(--no),var(--shadow)}
+
+.ihead{display:flex;gap:.6rem;align-items:baseline;flex-wrap:wrap;margin-bottom:.55rem}
+.inum{
+  font-size:.7rem;font-weight:800;letter-spacing:.1em;color:var(--ink-3);
+  border:1px solid var(--line);border-radius:6px;padding:.1rem .45rem;background:#F7F4EE;
+}
+.tag{
+  font-size:.68rem;font-weight:750;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--accent-dk);background:var(--accent-soft);border:1px solid #BFDAD9;
+  border-radius:99px;padding:.13rem .55rem;
+}
+
+.stem{font-family:var(--serif);font-size:1.09rem;line-height:1.55;margin:0 0 .85rem;color:var(--ink)}
+.stem .gapmark{
+  font-family:var(--sans);font-weight:700;color:var(--accent-dk);
+  border-bottom:2px solid var(--accent);padding:0 .5rem;letter-spacing:.05em;
+}
+.stem .who{font-family:var(--sans);font-size:.78rem;font-weight:750;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--ink-3);display:block;margin-top:.5rem}
+.stem .turn{display:block;margin:.15rem 0 .35rem}
+.ctx{font-size:.86rem;color:var(--ink-3);margin:-.4rem 0 .8rem;font-style:italic}
+
+fieldset{border:0;margin:0;padding:0;min-width:0}
+legend{padding:0}
+
+.opts{display:grid;gap:.45rem}
+.opt{
+  display:flex;gap:.7rem;align-items:flex-start;
+  border:1px solid var(--line);border-radius:10px;padding:.68rem .85rem;
+  cursor:pointer;background:#FDFCFA;transition:border-color .14s ease,background .14s ease;
+}
+.opt:hover{border-color:var(--accent);background:var(--accent-soft)}
+.opt input{margin:.32rem 0 0;flex:0 0 auto;width:1.05rem;height:1.05rem;accent-color:var(--accent)}
+.opt .otext{flex:1;font-size:.99rem;line-height:1.5}
+.opt .otext .lit{font-family:var(--serif);font-size:1.03em}
+.opt.sel,.opt:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+.opt:has(input:focus-visible){outline:3px solid var(--accent);outline-offset:2px}
+
+.item.checked .opt{cursor:default}
+.item.checked .opt.is-correct{border-color:var(--ok);background:var(--ok-soft)}
+.item.checked .opt.is-chosen-wrong{border-color:var(--no);background:var(--no-soft)}
+.item.checked .opt input{pointer-events:none}
+.badge{
+  display:inline-block;font-size:.66rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;
+  border-radius:5px;padding:.08rem .4rem;margin-left:.45rem;vertical-align:.06em;
+}
+.badge.ok{background:var(--ok);color:#fff}
+.badge.no{background:var(--no);color:#fff}
+
+.why{
+  font-size:.88rem;color:var(--ink-2);margin-top:.5rem;padding-left:1.75rem;
+  border-left:2px solid var(--line);margin-left:.15rem;padding-top:.1rem;padding-bottom:.1rem;
+}
+.why[hidden]{display:none}
+.why b{color:var(--ink)}
+
+.conf{margin-top:.85rem;padding-top:.7rem;border-top:1px dashed var(--line);display:flex;
+  gap:.8rem;align-items:center;flex-wrap:wrap}
+.conf legend, .conf .clab{font-size:.79rem;font-weight:700;color:var(--ink-3);letter-spacing:.03em;text-transform:uppercase}
+.confopts{display:flex;gap:.4rem;flex-wrap:wrap}
+.confopt{
+  display:inline-flex;align-items:center;gap:.38rem;border:1px solid var(--line);
+  border-radius:99px;padding:.26rem .72rem;font-size:.84rem;cursor:pointer;background:#FDFCFA;
+}
+.confopt input{accent-color:var(--gold);margin:0}
+.confopt.sel,.confopt:has(input:checked){border-color:var(--gold);background:var(--gold-soft);color:#5C420A;font-weight:600}
+
+.txtwrap{display:grid;gap:.4rem}
+.txtwrap label{font-size:.83rem;font-weight:650;color:var(--ink-2)}
+input[type=text],textarea{
+  width:100%;font:inherit;font-size:1rem;padding:.62rem .8rem;border:1px solid var(--line);
+  border-radius:9px;background:#FDFCFA;color:var(--ink);font-family:var(--serif);
+}
+input[type=text]:focus,textarea:focus{border-color:var(--accent);background:#fff}
+textarea{font-family:var(--sans);font-size:.96rem;line-height:1.6;resize:vertical;min-height:5.5rem}
+.item.checked input[type=text]{background:#F7F4EE}
+.gaprow{display:grid;gap:.55rem;grid-template-columns:1fr;margin-top:.2rem}
+@media(min-width:620px){ .gaprow.two{grid-template-columns:1fr 1fr} }
+.gapfield{display:grid;gap:.3rem}
+.gapfield .glab{font-size:.82rem;color:var(--ink-2);font-weight:650}
+
+.fb{margin-top:.75rem;font-size:.92rem;border-radius:10px;padding:.75rem .9rem;line-height:1.55}
+.fb:empty{display:none;padding:0;margin:0}
+.fb.ok{background:var(--ok-soft);border:1px solid var(--ok-line);color:#12502C}
+.fb.no{background:var(--no-soft);border:1px solid var(--no-line);color:#7C2020}
+.fb .model{font-family:var(--serif);font-size:1.02em;display:block;margin-top:.3rem}
+.fb .alts{display:block;margin-top:.4rem;font-size:.88em;opacity:.92}
+
+.itemfoot{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.9rem;align-items:center}
+
+.stagehead{
+  display:flex;align-items:center;gap:.85rem;margin:2.4rem 0 .4rem;flex-wrap:wrap;
+}
+.stagehead:first-of-type{margin-top:1.2rem}
+.stagenum{
+  flex:0 0 auto;width:2.1rem;height:2.1rem;border-radius:50%;background:var(--accent);color:#fff;
+  display:grid;place-items:center;font-weight:750;font-size:.9rem;font-family:var(--sans);
+}
+.stagehead h3{margin:0}
+.stagehead .stagesub{width:100%;font-size:.9rem;color:var(--ink-2);margin:0}
+
+/* ---------- Taxonomy ---------- */
+.taxgrid{display:grid;gap:.7rem;grid-template-columns:repeat(auto-fit,minmax(248px,1fr));margin-top:1.1rem}
+.tax{border:1px solid var(--line);border-radius:12px;background:#fff;padding:1rem 1.1rem}
+.tax .code{
+  font-family:var(--mono);font-size:.76rem;font-weight:700;color:#fff;background:var(--accent);
+  border-radius:5px;padding:.1rem .42rem;letter-spacing:.04em;
+}
+.tax h4{margin:.55rem 0 .3rem}
+.tax p{font-size:.88rem;color:var(--ink-2);margin:0 0 .45rem}
+.tax .egs{font-family:var(--serif);font-size:.95rem;margin:0}
+.tax .egs .bad{color:var(--no);text-decoration:line-through;text-decoration-thickness:1px}
+.tax .egs .good{color:var(--ok);font-weight:600}
+
+/* ---------- Path panel ---------- */
+.pathbox{border:1px solid var(--gold-line);background:var(--gold-soft);border-radius:var(--radius);
+  padding:clamp(16px,3vw,24px);margin-top:1.2rem;color:#5C420A}
+.pathbox h3{color:#5C420A;margin-top:0}
+.pathbox ol{margin:.6rem 0 0;padding-left:1.3rem}
+.pathbox li{margin-bottom:.4rem;font-size:.95rem}
+.pathbox[hidden]{display:none}
+
+/* ---------- Dashboard ---------- */
+.dashgrid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:1.3rem}
+.kpi{border:1px solid var(--line);border-radius:12px;background:#fff;padding:1.05rem 1.15rem}
+.kpi .kn{font-family:var(--serif);font-size:2.2rem;line-height:1;color:var(--accent-dk);font-variant-numeric:tabular-nums}
+.kpi .kl{font-size:.79rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin-top:.4rem}
+.kpi .kd{font-size:.85rem;color:var(--ink-2);margin-top:.4rem}
+
+.bars{display:grid;gap:.85rem;margin-top:1.2rem}
+.barrow{display:grid;grid-template-columns:1fr;gap:.3rem}
+.barlab{display:flex;justify-content:space-between;gap:.8rem;align-items:baseline;font-size:.9rem;flex-wrap:wrap}
+.barlab .bn{font-weight:650}
+.barlab .bn code{font-family:var(--mono);font-size:.78em;color:var(--accent-dk);background:var(--accent-soft);
+  padding:.05rem .3rem;border-radius:4px;margin-right:.4rem}
+.barlab .bv{font-variant-numeric:tabular-nums;color:var(--ink-2);font-size:.86rem;white-space:nowrap}
+.track{height:14px;background:var(--line-2);border:1px solid var(--line);border-radius:99px;overflow:hidden}
+.track>span{display:block;height:100%;border-radius:99px;transition:width .5s ease;background:var(--accent)}
+.track>span.lo{background:var(--no)}
+.track>span.mid{background:#B8860B}
+.track>span.hi{background:var(--ok)}
+.track>span.none{background:var(--line)}
+
+.quad{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:1rem}
+.qc{border:1px solid var(--line);border-radius:10px;padding:.8rem .9rem;background:#FDFCFA}
+.qc .qn{font-family:var(--serif);font-size:1.7rem;line-height:1;color:var(--ink)}
+.qc .ql{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-top:.35rem}
+.qc .qd{font-size:.82rem;color:var(--ink-2);margin-top:.3rem}
+.qc.blind{border-color:var(--no-line);background:var(--no-soft)}
+.qc.blind .ql{color:var(--no)}
+.qc.secure{border-color:var(--ok-line);background:var(--ok-soft)}
+.qc.secure .ql{color:var(--ok)}
+.qc.fragile{border-color:var(--gold-line);background:var(--gold-soft)}
+.qc.fragile .ql{color:var(--gold)}
+.qc.gap .ql{color:var(--ink-2)}
+
+/* ---------- Next step ---------- */
+.nextstep{border:1px solid var(--accent);border-radius:var(--radius);background:#fff;overflow:hidden;margin-top:1.3rem}
+.nextstep header{background:var(--accent);color:#fff;padding:1rem 1.25rem}
+.nextstep header h3{margin:0;color:#fff}
+.nextstep header p{margin:.25rem 0 0;font-size:.88rem;color:#CFE2E1}
+.nextstep .nsbody{padding:1.2rem 1.25rem;display:grid;gap:1rem}
+.nsblock h4{margin:0 0 .3rem;color:var(--accent-dk)}
+.nsblock p{margin:0;font-size:.95rem;color:var(--ink-2)}
+.nsblock ul{margin:.4rem 0 0;padding-left:1.25rem;font-size:.95rem;color:var(--ink-2)}
+.nsblock li{margin-bottom:.3rem}
+.drill{background:#F7F4EE;border:1px solid var(--line);border-radius:10px;padding:.9rem 1rem}
+.drill .sayit{font-family:var(--serif);font-size:1.02rem;color:var(--ink);display:block;margin-top:.35rem}
+
+/* ---------- Speaking transfer ---------- */
+.cuecard{
+  border:2px solid var(--ink);border-radius:12px;background:#fff;padding:1.2rem 1.3rem;
+  font-family:var(--serif);box-shadow:var(--shadow);
+}
+.cuecard p.task{font-size:1.12rem;margin:0 0 .6rem;font-weight:600}
+.cuecard ul{margin:0 0 .7rem;padding-left:1.3rem}
+.cuecard li{margin-bottom:.2rem}
+.cuecard .last{font-style:italic;color:var(--ink-2);font-size:.98rem;margin:0}
+
+.timerbox{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-top:1rem;
+  border:1px solid var(--line);border-radius:12px;background:#F7F4EE;padding:.9rem 1.1rem}
+.clock{font-family:var(--mono);font-size:2.05rem;font-weight:700;color:var(--accent-dk);
+  font-variant-numeric:tabular-nums;line-height:1;min-width:4.6ch}
+.phase{font-size:.8rem;font-weight:750;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
+.phase.live{color:var(--no)}
+
+.checklist{display:grid;gap:.45rem;margin-top:1rem}
+.chk{display:flex;gap:.7rem;align-items:flex-start;border:1px solid var(--line);border-radius:10px;
+  padding:.62rem .8rem;background:#FDFCFA;cursor:pointer;font-size:.95rem;line-height:1.5}
+.chk:hover{border-color:var(--accent);background:var(--accent-soft)}
+.chk input{margin:.28rem 0 0;width:1.05rem;height:1.05rem;accent-color:var(--accent);flex:0 0 auto}
+.chk.sel,.chk:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+.chk code{font-family:var(--mono);font-size:.76em;color:var(--accent-dk);background:#fff;
+  border:1px solid var(--line);padding:.02rem .3rem;border-radius:4px;margin-right:.35rem}
+
+.qlist{margin:.8rem 0 0;padding-left:1.3rem}
+.qlist li{margin-bottom:.4rem;font-family:var(--serif);font-size:1.03rem}
+
+/* ---------- Teacher panel ---------- */
+.teacherwrap{border:1px solid var(--line);border-radius:var(--radius);background:#fff;overflow:hidden;margin-top:1.2rem}
+.teacherwrap > header{background:#F4F1EA;border-bottom:1px solid var(--line);padding:1rem 1.25rem;
+  display:flex;justify-content:space-between;gap:1rem;align-items:center;flex-wrap:wrap}
+.teacherwrap > header h3{margin:0}
+#teacherBody{padding:1.2rem 1.25rem}
+#teacherBody[hidden]{display:none}
+
+.keytable{font-size:.87rem}
+.keytable th,.keytable td{padding:.55rem .7rem}
+.keytable td.k-ans{font-family:var(--serif);color:var(--ok);font-weight:600;white-space:normal}
+.keytable td.k-id{font-family:var(--mono);font-size:.8rem;white-space:nowrap;color:var(--ink-2)}
+.keytable td.k-tag{white-space:nowrap}
+.keytable ul{margin:.3rem 0 0;padding-left:1.1rem}
+.keytable li{margin-bottom:.25rem}
+.keytable li b{color:var(--no)}
+.keytable li b.g{color:var(--ok)}
+
+.scripts{display:grid;gap:.8rem;margin-top:1rem}
+.script{border:1px solid var(--line);border-radius:11px;padding:1rem 1.1rem;background:#FDFCFA}
+.script .sh{font-size:.72rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:.4rem}
+.script .say{font-family:var(--serif);font-size:1.02rem;color:var(--ink);margin:0 0 .5rem}
+.script .say::before{content:"\201C"}
+.script .say::after{content:"\201D"}
+.script .meta{font-size:.85rem;color:var(--ink-2);margin:0}
+
+/* ---------- Footer ---------- */
+footer.foot{background:#101E28;color:#A9BCC7;padding:2.4rem 0;font-size:.86rem}
+footer.foot strong{color:#E3EDF2}
+footer.foot a{color:#8FC7C5}
+
+/* ---------- Print ---------- */
+@media print{
+  :root{--shadow:none}
+  html,body{background:#fff !important;color:#000;font-size:10.5pt;line-height:1.42}
+  .progress-bar,.toolbar,.hero-actions,.skip,.itemfoot,.conf,.timerbox,.no-print{display:none !important}
+  .masthead{background:#fff !important;color:#000;padding:0 0 12pt;border-bottom:1.5pt solid #000}
+  .masthead h1,.masthead .lede,.masthead .eyebrow,.masthead .disclaimer{color:#000 !important}
+  .masthead .eyebrow::after{background:#999}
+  .metabar li,.outcomes li{background:#fff !important;border:.5pt solid #999 !important;color:#000 !important}
+  .outcomes b{color:#000 !important}
+  section.band{padding:12pt 0;border-top:.5pt solid #ccc;break-inside:auto}
+  .card,.item,.tax,.kpi,.pair,.nextstep,.teacherwrap,.script,.drill,.cuecard{
+    box-shadow:none !important;border:.5pt solid #999 !important;break-inside:avoid;background:#fff !important}
+  .item.correct,.item.wrong{box-shadow:none !important}
+  .why[hidden]{display:block !important}
+  .pair-body[hidden]{display:block !important}
+  #teacherBody[hidden]{display:block !important}
+  .fb{border:.5pt solid #999 !important;background:#fff !important;color:#000 !important}
+  .nextstep header{background:#fff !important;color:#000 !important;border-bottom:.5pt solid #999}
+  .nextstep header h3,.nextstep header p{color:#000 !important}
+  thead th{background:#eee !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .track,.pmeter{border:.5pt solid #666}
+  .track>span{background:#444 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  h1,h2,h3,h4{break-after:avoid}
+  a[href^="#"]{text-decoration:none;color:#000}
+  footer.foot{background:#fff !important;color:#000;border-top:.5pt solid #999}
+  footer.foot strong,footer.foot a{color:#000}
+  .tscroll{overflow:visible;border:.5pt solid #999}
+  table{min-width:0}
+  .printnote{display:block !important}
+}
+.printnote{display:none;font-size:.8rem;color:var(--ink-3);margin-top:.6rem;font-style:italic}
+
+/* Teacher-key-only print mode */
+@media print{
+  body[data-print="teacher"] > *:not(.teacher-section):not(.masthead){display:none !important}
+  body[data-print="teacher"] .masthead .outcomes,
+  body[data-print="teacher"] .masthead .metabar,
+  body[data-print="teacher"] .masthead .lede{display:none !important}
+  body[data-print="learner"] .teacher-section{display:none !important}
+}
+</style>
+</head>
+<body data-print="learner">
+<a class="skip" href="#main">Skip to the lab</a>
+
+<!-- ============================ HERO ============================ -->
+<header class="masthead">
+  <div class="wrap">
+    <p class="eyebrow">Grammar Lab &middot; IELTS Academic Speaking</p>
+    <h1>Past simple vs present perfect</h1>
+    <p class="lede">A diagnostic lab. You take a short entry check first, so the teaching that follows targets <em>your</em> actual error pattern &mdash; not a generic rule list. Built for a working band of 5.5 aiming at 7.0 in Speaking.</p>
+
+    <ul class="metabar">
+      <li>45 minutes</li>
+      <li>Speaking Parts 1&ndash;3</li>
+      <li>38 scored interactions</li>
+      <li>Grammatical Range &amp; Accuracy</li>
+      <li>Diagnostic mode</li>
+    </ul>
+
+    <ul class="outcomes">
+      <li><b>Outcome 1 &middot; Time-marker control</b>By the end of this lab you can select the past simple every time a finished-time marker is present (<em>in 2019, last term, three years ago, when I was at school</em>), scoring at least 8 of 10 on the mixed set in Stage 3.</li>
+      <li><b>Outcome 2 &middot; Frame continuity</b>You can hold one time frame across a three-turn Speaking exchange &mdash; a Part 1 question, its follow-up, and a Part 3 extension &mdash; switching tense only where the time reference genuinely changes.</li>
+      <li><b>Outcome 3 &middot; Range, not repair</b>You can produce, unprompted, two present-perfect patterns that signal present relevance in change-over-time answers (<em>has become&hellip;, there has been a rise in&hellip;</em>) alongside their past-simple contrast, so the contrast reads as range rather than correction.</li>
+    </ul>
+
+    <div class="hero-actions">
+      <a class="btn lg on-dark" href="#entry">Start lab &rarr;</a>
+      <a class="btn lg ghost on-dark" href="#teacher">Teacher answer key</a>
+    </div>
+
+    <p class="disclaimer"><strong>Independent practice resource &mdash; not an official IELTS product or score.</strong> This lab is aligned to the publicly available <em>Grammatical Range and Accuracy</em> criterion and to the public IELTS Academic format. It contains no official test items, examiner scripts or proprietary descriptors, and any feedback it generates is practice feedback, not an IELTS assessment.</p>
+  </div>
+</header>
+
+<!-- ============================ PROGRESS ============================ -->
+<div class="progress-bar no-print">
+  <div class="progress-inner">
+    <span class="ptext" id="ptext">0 of 38 answered</span>
+    <div class="pmeter" role="progressbar" aria-labelledby="ptext" aria-valuemin="0" aria-valuemax="38" aria-valuenow="0" id="pmeter"><span id="pfill"></span></div>
+    <div class="toolbar">
+      <button type="button" class="btn ghost sm" id="btnRationales" aria-pressed="false"><span class="t-full">Show all rationales</span><span class="t-short" aria-hidden="true">Rationales</span></button>
+      <button type="button" class="btn ghost sm" id="btnPrintLearner"><span class="t-full">Print worksheet</span><span class="t-short" aria-hidden="true">Print</span></button>
+      <button type="button" class="btn ghost sm" id="btnReset"><span class="t-full">Reset lab</span><span class="t-short" aria-hidden="true">Reset</span></button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ============================ 1. ENTRY CHECK ============================ -->
+<section class="band" id="entry" aria-labelledby="h-entry">
+  <div class="wrap">
+    <p class="eyebrow">Stage 1 &middot; 5 minutes</p>
+    <h2 id="h-entry">Entry check &mdash; find your error pattern first</h2>
+    <p class="lede">Ten quick items. Answer from instinct, then say how sure you were. The confidence rating matters as much as the answer: an item you got wrong <em>while feeling sure</em> is a blind spot, and blind spots are what hold a 5.5 speaker at 5.5.</p>
+
+    <div class="note" style="margin-top:1.2rem">
+      <h4>What this is</h4>
+      <p>A five-minute teaching set, not a test section. IELTS does not test grammar in isolation, and there is no timed &ldquo;grammar paper&rdquo; in the exam. Five minutes is simply a working budget so the rest of the 45 minutes goes on teaching and speaking.</p>
+    </div>
+
+    <div class="itemlist" id="list-entry"></div>
+
+    <div class="itemfoot no-print" style="margin-top:1.3rem">
+      <button type="button" class="btn lg" id="btnScoreEntry">Score my entry check</button>
+      <span class="ptext" id="entryCount">0 of 10 answered</span>
+    </div>
+
+    <div class="pathbox" id="pathBox" hidden aria-live="polite">
+      <h3 id="pathTitle"></h3>
+      <p id="pathBody"></p>
+      <ol id="pathSteps"></ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 2. TAXONOMY ============================ -->
+<section class="band" id="taxonomy" aria-labelledby="h-tax">
+  <div class="wrap">
+    <p class="eyebrow">The error taxonomy</p>
+    <h2 id="h-tax">Six patterns &mdash; every item on this page is tagged</h2>
+    <p class="lede">Your review dashboard reports accuracy against these six codes rather than a band number. Naming the pattern is what makes it fixable: &ldquo;my tense is weak&rdquo; is not actionable, but &ldquo;I attach the present perfect to finished-time markers&rdquo; is a twenty-minute fix.</p>
+    <div class="taxgrid" id="taxGrid"></div>
+  </div>
+</section>
+
+<!-- ============================ 3. TEACHING ============================ -->
+<section class="band" id="teach" aria-labelledby="h-teach">
+  <div class="wrap">
+    <p class="eyebrow">Stage 2 &middot; 8 minutes</p>
+    <h2 id="h-teach">Form, meaning, use</h2>
+    <p class="lede">Three compact tables and five contrast pairs. Read this after the entry check, with your own error pattern in mind &mdash; you are looking for the row that explains what you just got wrong.</p>
+
+    <div class="note rule" style="margin-top:1.3rem">
+      <h4>The one rule to carry into the exam</h4>
+      <p><strong>If you say when, use the past simple. If you cannot say when &mdash; or when it does not matter &mdash; use the present perfect.</strong> Nothing else lifts tense accuracy faster at this level, because the single most common error in Band 5.5 Speaking is a present perfect glued to a finished-time marker.</p>
+    </div>
+
+    <div class="tscroll" style="margin-top:1.4rem">
+      <table>
+        <caption>Table 1 &mdash; Form</caption>
+        <thead><tr><th scope="col"></th><th scope="col">Past simple</th><th scope="col">Present perfect</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Positive</th><td class="ex">I studied &middot; she went &middot; prices rose</td><td class="ex">I have studied &middot; she has gone &middot; prices have risen</td></tr>
+          <tr><th scope="row">Negative</th><td class="ex">I didn&rsquo;t study &middot; she didn&rsquo;t go</td><td class="ex">I haven&rsquo;t studied &middot; she hasn&rsquo;t gone</td></tr>
+          <tr><th scope="row">Question</th><td class="ex">Did you study? &mdash; Yes, I did.</td><td class="ex">Have you studied? &mdash; Yes, I have.</td></tr>
+          <tr><th scope="row">Verb after the auxiliary</th><td>Base form after <em>did</em>: <span class="ex">didn&rsquo;t go</span>, never <span class="ex">didn&rsquo;t went</span></td><td>Past participle after <em>have/has</em>: <span class="ex">have gone, have risen, have written</span> &mdash; never <span class="ex">have went, have rose, have wrote</span></td></tr>
+          <tr><th scope="row">Time words it takes</th><td><em>in 2019, last term, three years ago, yesterday, when I was at school, at that time</em></td><td><em>since, for, so far, up to now, ever, never, already, yet, just, recently, over the past decade, in the last ten years</em></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tscroll" style="margin-top:1.1rem">
+      <table>
+        <caption>Table 2 &mdash; Meaning: three questions that decide the tense</caption>
+        <thead><tr><th scope="col">Question</th><th scope="col">Past simple</th><th scope="col">Present perfect</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Does the sentence say <em>when</em>?</th><td>Yes &mdash; a fixed point or a closed period</td><td>No &mdash; the time is either open or beside the point</td></tr>
+          <tr><th scope="row">Where does the period end?</th><td>In the past, before now</td><td>At this moment; the period is still open</td></tr>
+          <tr><th scope="row">Does the result matter now?</th><td>Not necessarily &mdash; it is a report</td><td>Yes &mdash; that is the whole reason for choosing it</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tscroll" style="margin-top:1.1rem">
+      <table>
+        <caption>Table 3 &mdash; Use: the four jobs this contrast does in Speaking</caption>
+        <thead><tr><th scope="col">Job</th><th scope="col">Tense</th><th scope="col">Example</th><th scope="col">Signal to listen for</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Finished time</th><td>Past simple</td><td class="ex">We ran the pilot study in March.</td><td><em>in March, last year, two terms ago</em></td></tr>
+          <tr><th scope="row">Life experience</th><td>Present perfect</td><td class="ex">I&rsquo;ve presented at two conferences.</td><td><em>ever, never, twice, before, so far</em></td></tr>
+          <tr><th scope="row">Recent change</th><td>Present perfect</td><td class="ex">Tuition fees have risen sharply.</td><td><em>recently, over the past decade, since 2020</em></td></tr>
+          <tr><th scope="row">Present relevance</th><td>Present perfect</td><td class="ex">I&rsquo;ve already submitted the form, so I&rsquo;m free this week.</td><td><em>already, just, yet</em> &mdash; or a stated result now</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 style="margin-top:2rem">Contrast pairs</h3>
+    <p style="color:var(--ink-2);font-size:.96rem;max-width:68ch">Both sentences in each pair are correct English. Only the meaning changes. This is the level of control Band 7 asks for &mdash; not avoiding errors, but choosing between two accurate forms on purpose.</p>
+    <div class="pairs" id="pairsList"></div>
+
+    <div class="note l1" style="margin-top:1.6rem">
+      <h4>Why this is harder if your first language is Turkish</h4>
+      <p>Turkish marks duration with <em>-den beri</em> plus a <strong>present</strong> tense: <em>2020&rsquo;den beri burada ya&scaron;&#305;yorum</em> maps word-for-word onto &ldquo;I live here since 2020&rdquo;. English needs a perfect form there. Turkish also has no single form that matches the English perfect, so the two Turkish past markers (<em>-d&#305;</em> and <em>-m&#305;&#537;</em>) both tend to come out as the past simple. Neither of these is carelessness &mdash; they are predictable transfer patterns, and they respond quickly to targeted practice because there is a rule to hold on to rather than a feel to develop.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 4. PRACTICE ============================ -->
+<section class="band" id="practice" aria-labelledby="h-prac">
+  <div class="wrap">
+    <p class="eyebrow">Stage 3 &middot; 20 minutes</p>
+    <h2 id="h-prac">Scaffolded practice</h2>
+    <p class="lede">Five stages, each removing a little support: you notice the signal, then choose the form, then repair a broken sentence, then produce the form from scratch, then apply it inside a Speaking exchange. Twenty-eight items. Check each one as you go &mdash; feedback that arrives immediately is what makes the pattern stick.</p>
+
+    <div class="stagehead"><span class="stagenum">1</span><h3>Notice &mdash; what does the time expression force?</h3>
+      <p class="stagesub">No verbs to conjugate yet. Just read the time expression and decide which period it describes.</p></div>
+    <div class="itemlist" id="list-notice"></div>
+
+    <div class="stagehead"><span class="stagenum">2</span><h3>Choose &mdash; select the form</h3>
+      <p class="stagesub">Academic contexts across six topic areas. Several items have two gaps, because in real speech the two tenses sit in the same sentence.</p></div>
+    <div class="itemlist" id="list-choose"></div>
+
+    <div class="stagehead"><span class="stagenum">3</span><h3>Repair &mdash; fix the sentence</h3>
+      <p class="stagesub">Each sentence contains one tense error. Type the corrected version. Where more than one repair is legitimate, all accepted answers are shown when you check.</p></div>
+    <div class="itemlist" id="list-repair"></div>
+
+    <div class="stagehead"><span class="stagenum">4</span><h3>Produce &mdash; build the form yourself</h3>
+      <p class="stagesub">No options to choose from. Write the verb phrase that fits, using the verb in brackets. Contractions are accepted.</p></div>
+    <div class="itemlist" id="list-produce"></div>
+
+    <div class="stagehead"><span class="stagenum">5</span><h3>Apply &mdash; hold the frame across turns</h3>
+      <p class="stagesub">This is where Band 5.5 usually slips. The first answer is fine; the follow-up loses the time frame. Choose the response that keeps control.</p></div>
+    <div class="itemlist" id="list-apply"></div>
+  </div>
+</section>
+
+<!-- ============================ 5. TRANSFER ============================ -->
+<section class="band" id="transfer" aria-labelledby="h-tr">
+  <div class="wrap">
+    <p class="eyebrow">Stage 4 &middot; 10 minutes</p>
+    <h2 id="h-tr">IELTS transfer &mdash; Speaking Parts 1, 2 and 3</h2>
+    <p class="lede">Speak these aloud and record yourself if you can. The point is not to be error-free; it is to hear whether the frame holds when you stop thinking about grammar and start thinking about content.</p>
+
+    <div class="note" style="margin-top:1.2rem">
+      <h4>Keep the three demands separate</h4>
+      <p>This page trains <strong>Speaking</strong> only. The same contrast behaves differently elsewhere in IELTS Academic: <strong>Writing Task 1</strong> is dominated by the past simple, because the data carries dated, finished periods; <strong>Writing Task 2</strong> uses the present perfect mainly to establish a trend before an argument shifts to the present or future. Do not carry Task 1 report language into Part 3 &mdash; it sounds rehearsed, and it costs you on Fluency and Coherence.</p>
+    </div>
+
+    <h3 style="margin-top:1.9rem">Part 1 &mdash; familiar topics</h3>
+    <p style="color:var(--ink-2);font-size:.96rem">Answer each in four to six sentences using the AREA shape (answer, reason, example, add). Watch the tense in the follow-up, not just the first sentence.</p>
+    <ol class="qlist">
+      <li>Where did you study before this course, and what did you enjoy about it?</li>
+      <li>Has the way you study changed since you started preparing for this exam?</li>
+      <li>What is the most useful thing you have learned in the last year?</li>
+      <li>Did you use technology much in your classes at school?</li>
+    </ol>
+
+    <h3 style="margin-top:1.9rem">Part 2 &mdash; long turn</h3>
+    <p style="color:var(--ink-2);font-size:.96rem">Full task, full timing: one minute to prepare, one to two minutes to speak.</p>
+    <div class="cuecard">
+      <p class="task">Describe a change you have made in the way you study.</p>
+      <p style="margin:0 0 .4rem">You should say:</p>
+      <ul>
+        <li>what the change was</li>
+        <li>when and why you made it</li>
+        <li>how you study now compared with before</li>
+      </ul>
+      <p class="last">and explain what difference this change has made to your results.</p>
+    </div>
+
+    <div class="timerbox no-print">
+      <span class="clock" id="clock" aria-hidden="true">1:00</span>
+      <div>
+        <div class="phase" id="phase">Preparation &mdash; not started</div>
+        <div style="font-size:.83rem;color:var(--ink-2)">1 minute preparation, then 2 minutes speaking.</div>
+      </div>
+      <div style="display:flex;gap:.4rem;flex-wrap:wrap;margin-left:auto">
+        <button type="button" class="btn sm" id="btnTimer">Start preparation</button>
+        <button type="button" class="btn ghost sm" id="btnTimerReset">Reset timer</button>
+      </div>
+      <p class="sr-only" role="status" aria-live="polite" id="timerAnnounce"></p>
+    </div>
+    <p class="printnote">Timer available in the on-screen version: 1 minute preparation, 2 minutes speaking.</p>
+
+    <h3 style="margin-top:1.9rem">Part 3 &mdash; change over time</h3>
+    <p style="color:var(--ink-2);font-size:.96rem">These are the questions that expose tense control, because each one mixes a period running up to now with specific finished events. Aim for one clean movement between frames per answer &mdash; open in the present perfect, drop to the past simple where you name a year, come back.</p>
+    <ol class="qlist">
+      <li>How have study habits changed in your country over the past twenty years?</li>
+      <li>Some people say universities have become too focused on employment. What is your view?</li>
+      <li>What effect has online learning had on the way students work together?</li>
+      <li>Do you think the changes we have seen in education so far will continue?</li>
+    </ol>
+
+    <h3 style="margin-top:1.9rem">Self-audit &mdash; listen back and tick honestly</h3>
+    <p style="color:var(--ink-2);font-size:.96rem">Eight checks against the taxonomy. Anything you cannot tick is your homework, and it counts toward your dashboard below.</p>
+    <div class="checklist" id="auditList"></div>
+  </div>
+</section>
+
+<!-- ============================ 6. DASHBOARD ============================ -->
+<section class="band" id="review" aria-labelledby="h-rev">
+  <div class="wrap">
+    <p class="eyebrow">Stage 5 &middot; 2 minutes</p>
+    <h2 id="h-rev">Review dashboard</h2>
+    <p class="lede">Accuracy by error type. There is deliberately no band score here: a band is a judgement about an entire spoken performance across four criteria, and no grammar exercise can produce one honestly. What this can tell you is which of the six patterns is costing you the most.</p>
+
+    <div class="dashgrid" id="kpiGrid"></div>
+
+    <h3 style="margin-top:2rem">Accuracy by error type</h3>
+    <div class="bars" id="barsBox"></div>
+    <p style="font-size:.85rem;color:var(--ink-3);margin-top:.9rem">Bars are grey until you have attempted at least two items in that category, because one item is not a pattern.</p>
+
+    <h3 style="margin-top:2rem">Confidence against accuracy &mdash; entry check</h3>
+    <p style="color:var(--ink-2);font-size:.96rem;max-width:68ch">The top-left box is the one to read first. Being wrong while feeling sure is the most expensive state in exam preparation, because you never stop to check it.</p>
+    <div class="quad" id="quadBox"></div>
+  </div>
+</section>
+
+<!-- ============================ 7. NEXT STEP ============================ -->
+<section class="band" id="next" aria-labelledby="h-next">
+  <div class="wrap">
+    <p class="eyebrow">Personalised</p>
+    <h2 id="h-next">Your next step</h2>
+    <p class="lede">One pattern, one drill, one Speaking task. Not six. Fixing one pattern properly moves your accuracy further than half-fixing all of them, and it is the only version of this that you will actually do before the next lesson.</p>
+    <div class="nextstep" id="nextStep" aria-live="polite">
+      <header><h3 id="nsTitle">Complete the entry check to unlock this panel</h3><p id="nsSub">Your weakest pattern is calculated from every item you check on this page.</p></header>
+      <div class="nsbody" id="nsBody">
+        <p style="color:var(--ink-2);font-size:.95rem;margin:0">Answer and score at least a few items above, and this panel will name the single pattern that is costing you the most, with a ten-minute drill and a Speaking micro-task built around it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================ 8. TEACHER ============================ -->
+<section class="band teacher-section" id="teacher" aria-labelledby="h-teach2">
+  <div class="wrap">
+    <p class="eyebrow">For the teacher</p>
+    <h2 id="h-teach2">Interpretation panel and printable answer key</h2>
+    <p class="lede">Full key with rationales for every option, a diagnostic reading of each error pattern, and feedback language you can say out loud in the lesson.</p>
+
+    <div class="teacherwrap">
+      <header>
+        <h3>Answer key, rationales and coaching language</h3>
+        <div style="display:flex;gap:.4rem;flex-wrap:wrap" class="no-print">
+          <button type="button" class="btn sm" id="btnTeacher" aria-expanded="false" aria-controls="teacherBody">Show teacher key</button>
+          <button type="button" class="btn ghost sm" id="btnPrintTeacher">Print teacher key</button>
+        </div>
+      </header>
+      <div id="teacherBody" hidden>
+        <h4 style="margin-top:0">1 &middot; How to read the dashboard in the lesson</h4>
+        <div class="tscroll" style="margin-bottom:1.4rem">
+          <table class="keytable">
+            <thead><tr><th scope="col">Pattern</th><th scope="col">What a low score here usually means</th><th scope="col">What to do next lesson</th></tr></thead>
+            <tbody id="interpBody"></tbody>
+          </table>
+        </div>
+
+        <h4>2 &middot; Feedback language</h4>
+        <div class="scripts" id="scriptBox"></div>
+
+        <h4 style="margin-top:1.6rem">3 &middot; Full answer key with rationales</h4>
+        <p style="font-size:.9rem;color:var(--ink-2)">Every distractor carries a grammatical reason. Where a repair item admits more than one correct answer, all accepted forms are listed.</p>
+        <div class="tscroll">
+          <table class="keytable">
+            <thead><tr><th scope="col">Item</th><th scope="col">Code</th><th scope="col">Answer</th><th scope="col">Rationale &mdash; and why each distractor fails</th></tr></thead>
+            <tbody id="keyBody"></tbody>
+          </table>
+        </div>
+
+        <h4 style="margin-top:1.6rem">4 &middot; Turkish L1 note</h4>
+        <div class="note l1">
+          <p>Codes <strong>T3</strong> and <strong>T4</strong> are where Turkish-speaking learners cluster. Turkish expresses duration up to now with <em>-den beri</em> plus a present tense, so &ldquo;I live here since 2020&rdquo; is a structural transfer, not inattention &mdash; name it that way. Turkish also lacks a form corresponding to the English perfect, so both <em>-d&#305;</em> and <em>-m&#305;&#537;</em> pasts surface as the past simple, which is why the default error direction is <em>under</em>-use of the present perfect, with over-use appearing only in the specific T1 case where a learner has been taught the perfect and applies it enthusiastically to <em>last year</em>. Frame every one of these as a predictable pattern with a rule attached, never as a personal weakness &mdash; it de-personalises the error and keeps the learner working on it.</p>
+        </div>
+
+        <h4 style="margin-top:1.6rem">5 &middot; Calibration notes</h4>
+        <ul style="font-size:.93rem;color:var(--ink-2)">
+          <li><strong>Load:</strong> one grammar contrast, no new vocabulary set, one strategy (frame continuity across turns). This is deliberately at the cognitive-load ceiling for a 45-minute session; do not add a second grammar point.</li>
+          <li><strong>Standard used:</strong> British usage throughout, which is what IELTS examiners are trained on. Where American English tolerates the past simple with <em>just, already</em> and <em>yet</em>, items avoid that grey zone entirely rather than penalising the learner for a legitimate variant &mdash; every scored item is unambiguous in both varieties.</li>
+          <li><strong>Progression:</strong> 5.5 to 7.0 in Grammatical Range and Accuracy is roughly a 200&ndash;250 guided-hour journey across all four criteria. This lab addresses one high-frequency accuracy leak within that. Say so to the learner; a lab that promises a band is a lab they will stop trusting.</li>
+          <li><strong>Homework:</strong> the personalised panel deliberately issues one drill, not six. Calibrate to about 80% confidence that it gets done.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <p><strong>Independent practice resource &mdash; not an official IELTS product or score.</strong></p>
+    <p>Aligned to the publicly available IELTS <em>Grammatical Range and Accuracy</em> criterion and the public IELTS Academic format. Contains no reproduced test items, examiner scripts or proprietary band descriptors. All contexts are original. Progress is stored only in this browser&rsquo;s local storage and is never transmitted anywhere; clearing your browser data or pressing <em>Reset lab</em> removes it.</p>
+    <p style="margin-top:1rem;font-size:.82rem;color:#7E93A0">IELTS is a registered trademark of the British Council, IDP: IELTS Australia and Cambridge University Press &amp; Assessment. This resource is not endorsed by or affiliated with them.</p>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+   IELTS GRAMMAR LAB — past simple vs present perfect
+   Single source of truth: every item below drives the exercise,
+   the dashboard and the teacher key, so the key cannot drift.
+   ============================================================ */
+"use strict";
+
+/* ---------- 1. ERROR TAXONOMY ---------- */
+const TAX = [
+  { code:"T1", name:"Finished-time clash",
+    desc:"A present perfect attached to a finished-time marker. The highest-frequency tense error at Band 5.5 and the fastest to fix.",
+    bad:"I have visited Rome last year.", good:"I visited Rome last year." },
+  { code:"T2", name:"Experience vs single event",
+    desc:"Life experience with no stated time needs the present perfect; one dated occasion needs the past simple. Learners often pick one and use it for both.",
+    bad:"Did you ever speak at a conference? — Yes, I have.", good:"Have you ever spoken at a conference? — Yes, I have." },
+  { code:"T3", name:"Unfinished duration and states",
+    desc:"A situation running from a past point up to now. Turkish marks this with a present tense, so this is a predictable transfer error.",
+    bad:"I live here since 2020.", good:"I have lived here since 2020." },
+  { code:"T4", name:"Recent change and present relevance",
+    desc:"A change whose result holds now. This is the pattern that carries change-over-time answers in Part 3, and avoiding it costs you range as well as accuracy.",
+    bad:"Applications increased recently, so the department has added a round last week.", good:"Applications have increased recently, so the department added a round last week." },
+  { code:"T5", name:"Frame drift across turns",
+    desc:"The first answer is fine; the follow-up silently changes time frame. This is what examiners hear as “inconsistent tense control”.",
+    bad:"How has it changed? — It changed a lot. They built a new centre.", good:"How has it changed? — It has changed a lot. They’ve built a new centre." },
+  { code:"T6", name:"Form accuracy",
+    desc:"Past participle instead of past simple form after have/has, plus have/has agreement and the rise–raise, fall–fell trap.",
+    bad:"Costs have rose sharply. She have wrote four papers.", good:"Costs have risen sharply. She has written four papers." }
+];
+const TAXMAP = {}; TAX.forEach(t => TAXMAP[t.code] = t);
+
+/* ---------- 2. CONTRAST PAIRS ---------- */
+const PAIRS = [
+  { a:"I lived in Ankara for six years.", b:"I’ve lived in Ankara for six years.",
+    body:"Both are correct; they describe different lives. The past simple closes the six years — you moved away. The present perfect keeps them open — you are still there, and the sixth year is running now. In Part 1 this single choice tells the examiner whether you are describing your present or your past." },
+  { a:"Did you finish the reading?", b:"Have you finished the reading?",
+    body:"The first assumes a finished period both speakers can see — last night, before the seminar. The second asks about right now, with the deadline still ahead. Ask a classmate the first version on the morning of the deadline and it sounds as though the chance has already gone." },
+  { a:"Our department introduced online exams in 2020.", b:"Our department has introduced online exams.",
+    body:"The first reports a dated event; it belongs in a narrative. The second reports a change that now shapes how exams work — the year is either unknown or irrelevant. Part 3 answers about change want the second shape; adding “in 2020” to it produces the T1 error." },
+  { a:"I never travelled abroad.", b:"I’ve never travelled abroad.",
+    body:"The first needs a closed period around it to make sense — as a child, before university. On its own it sounds unfinished, as though a clause is missing. The second means “not once in my life up to this moment” and stands alone perfectly." },
+  { a:"She wrote three papers.", b:"She’s written three papers.",
+    body:"The first counts inside a period that is over — during her doctorate, that year. The second leaves the count open: three so far, and there may well be a fourth. That open-ended reading is exactly why the present perfect suits “how many times have you…” questions." }
+];
+
+/* ---------- 3. ITEM BANK ----------
+   Every scored item on the page. One object per item; the exercise UI,
+   the dashboard and the teacher key are all generated from this array,
+   so the answer key cannot drift out of step with the exercise.        */
+
+const ITEMS = [
+
+/* ===== ENTRY CHECK (10) ===== */
+{ id:"EC1", sec:"entry", tag:"T1", type:"mc",
+  stem:"In 2019 the university <span class=\"gapmark\">___</span> a campus-wide recycling scheme.",
+  opts:[
+    { t:"introduced", ok:true, why:"<em>In 2019</em> fixes the action at a finished point in the past, and the past simple is the only tense that can locate an event at a named past time." },
+    { t:"has introduced", ok:false, why:"The present perfect places an event somewhere in a period running up to now, so it cannot combine with a date that is over. This is the single most common tense error at Band 5.5." },
+    { t:"has been introducing", ok:false, why:"The present perfect continuous carries the same clash with <em>in 2019</em>, and it also describes an activity still in progress — wrong for a one-off institutional decision." }
+  ]},
+
+{ id:"EC2", sec:"entry", tag:"T3", type:"mc",
+  stem:"I <span class=\"gapmark\">___</span> in Izmir since I began my master’s degree.",
+  opts:[
+    { t:"have lived", ok:true, why:"<em>Since</em> plus a starting point measures a period that runs from that point up to now, which is precisely the job of the present perfect." },
+    { t:"live", ok:false, why:"The present simple states a general fact or habit; it has no way of measuring a stretch of time from a past starting point. Turkish uses the present with <em>-den beri</em>, so this is a predictable transfer error rather than carelessness." },
+    { t:"lived", ok:false, why:"The past simple closes the period, implying you no longer live there — which contradicts <em>since</em>, a word that keeps the period open." }
+  ]},
+
+{ id:"EC3", sec:"entry", tag:"T2", type:"mc",
+  stem:"<span class=\"who\">Examiner</span><span class=\"turn\">&ldquo;<span class=\"gapmark\">___</span> you ever <span class=\"gapmark\">___</span> at an academic conference?&rdquo;</span><span class=\"who\">Candidate</span><span class=\"turn\">&ldquo;Yes, I have — twice.&rdquo;</span>",
+  opts:[
+    { t:"Have / spoken", ok:true, why:"<em>Ever</em> asks about experience at any point up to now, with no time stated — present perfect. The reply <em>Yes, I have</em> echoes the auxiliary and confirms it." },
+    { t:"Did / speak", ok:false, why:"A past-simple question would be answered <em>Yes, I did</em>, not <em>Yes, I have</em>. <em>Did you ever…?</em> is only available when a finished period is understood, such as <em>when you were a student</em>." },
+    { t:"Have / spoke", ok:false, why:"The auxiliary is right but the verb form is not: after <em>have</em> English needs the past participle <em>spoken</em>. <em>Spoke</em> is the past simple form and cannot follow an auxiliary." }
+  ]},
+
+{ id:"EC4", sec:"entry", tag:"T1", type:"mc",
+  stem:"We <span class=\"gapmark\">___</span> the pilot survey in March, and since then the response rate <span class=\"gapmark\">___</span> by twelve per cent.",
+  opts:[
+    { t:"completed / has risen", ok:true, why:"Two frames in one sentence, each correctly marked: <em>in March</em> is finished time, so past simple; <em>since then</em> opens a period reaching the present, so present perfect. Producing both accurately in one sentence is a Band 7 feature." },
+    { t:"have completed / rose", ok:false, why:"Exactly reversed. The present perfect cannot take <em>in March</em>, and <em>since then</em> needs a tense that reaches now — the past simple stops short." },
+    { t:"completed / rose", ok:false, why:"The first half is right, but <em>since then</em> opens a period continuing to the present moment and the past simple closes it off, leaving the phrase unexplained." }
+  ]},
+
+{ id:"EC5", sec:"entry", tag:"T5", type:"mc",
+  stem:"<span class=\"who\">Examiner</span><span class=\"turn\">&ldquo;When did you start learning English?&rdquo;</span><span class=\"who\">Candidate</span><span class=\"turn\">&ldquo;I started in primary school.&rdquo;</span><span class=\"who\">Examiner</span><span class=\"turn\">&ldquo;And how has your English changed since then?&rdquo;</span><span class=\"who\">Candidate</span>",
+  opts:[
+    { t:"&ldquo;Well, it has improved a lot, especially my speaking.&rdquo;", ok:true, why:"The examiner’s question sets a period from primary school to now. Matching that frame is what tense control means — and note that the previous answer was correctly in the past simple, because it named a finished time." },
+    { t:"&ldquo;Well, it improved a lot, especially my speaking.&rdquo;", ok:false, why:"<em>Since then</em> in the question opens a period running to the present; answering in the past simple drops that frame and reports a closed, disconnected episode. This is frame drift, and it is what examiners hear as inconsistent tense control." },
+    { t:"&ldquo;Well, it improves a lot, especially my speaking.&rdquo;", ok:false, why:"The present simple describes a repeated event or a general truth. It cannot express the accumulated result of a period of change." }
+  ]},
+
+{ id:"EC6", sec:"entry", tag:"T6", type:"mc",
+  stem:"Over the past five years, the cost of student housing <span class=\"gapmark\">___</span> sharply.",
+  opts:[
+    { t:"has risen", ok:true, why:"<em>Over the past five years</em> includes the present moment, so the present perfect is required; <em>risen</em> is the past participle of the intransitive verb <em>rise</em>, which needs no object." },
+    { t:"has rose", ok:false, why:"<em>Rose</em> is the past simple form. After <em>has</em> English requires the past participle, which for <em>rise</em> is <em>risen</em>." },
+    { t:"has raised", ok:false, why:"<em>Raise</em> is transitive and demands an object — you raise <em>something</em>. Prices and costs go up by themselves, so the intransitive <em>rise</em> is needed. This confusion is a recognisable Band 6 ceiling." }
+  ]},
+
+{ id:"EC7", sec:"entry", tag:"T2", type:"mc",
+  stem:"I <span class=\"gapmark\">___</span> Berlin three times, but I <span class=\"gapmark\">___</span> there last summer.",
+  opts:[
+    { t:"have visited / didn’t go", ok:true, why:"A running count of experiences up to now takes the present perfect; <em>last summer</em> is a closed period and takes the past simple. The contrast within one sentence is exactly what the exam rewards." },
+    { t:"visited / haven’t gone", ok:false, why:"Reversed. Without a stated period the count of visits belongs to your life so far, and <em>last summer</em> cannot sit with a present perfect." },
+    { t:"have visited / haven’t gone", ok:false, why:"The first half is right, but <em>last summer</em> is a finished-time marker and blocks the present perfect in the second clause." }
+  ]},
+
+{ id:"EC8", sec:"entry", tag:"T4", type:"mc",
+  stem:"<span class=\"who\">A</span><span class=\"turn\">&ldquo;Why are you carrying so many folders?&rdquo;</span><span class=\"who\">B</span><span class=\"turn\">&ldquo;The library <span class=\"gapmark\">___</span> its weekend hours, so I <span class=\"gapmark\">___</span> everything I need.&rdquo;</span>",
+  opts:[
+    { t:"has just cut / have already borrowed", ok:true, why:"<em>Just</em> and <em>already</em> both mark an action whose result is what matters now — that is the present-relevance job of the present perfect, and both clauses belong to the same present frame." },
+    { t:"just cut / already borrowed", ok:false, why:"In the British usage IELTS examiners are trained on, <em>just</em>, <em>already</em> and <em>yet</em> take the present perfect. The past simple would need a stated finished time such as <em>on Friday</em> — at which point <em>just</em> would have to go." },
+    { t:"has just cut / already borrowed", ok:false, why:"The two clauses describe one connected situation, so the frame has to hold across both. Dropping the auxiliary in the second clause breaks it halfway through the sentence." }
+  ]},
+
+{ id:"EC9", sec:"entry", tag:"T3", type:"mc",
+  stem:"<span class=\"ctx\">Asked of someone who is still preparing for the exam:</span>How long <span class=\"gapmark\">___</span> you <span class=\"gapmark\">___</span> for IELTS?",
+  opts:[
+    { t:"have / been preparing", ok:true, why:"<em>How long</em> asks for a duration, and the preparation is still going on, so the period runs from a past point up to now — present perfect continuous. <em>Have you prepared</em> would also be grammatical but sounds as though the preparation is complete." },
+    { t:"did / prepare", ok:false, why:"The past simple asks about a period that is over. The person is still preparing, so the question would misdescribe the situation." },
+    { t:"are / preparing", ok:false, why:"The present continuous asks what is happening at this moment, not how long a situation has lasted. A duration reaching back from now needs a perfect form." }
+  ]},
+
+{ id:"EC10", sec:"entry", tag:"T1", type:"mc",
+  stem:"When I <span class=\"gapmark\">___</span> at school, we <span class=\"gapmark\">___</span> almost no digital technology in class.",
+  opts:[
+    { t:"was / used", ok:true, why:"<em>When I was at school</em> is itself a finished-time clause. It sets a closed frame, and every verb inside that frame stays in the past simple." },
+    { t:"have been / have used", ok:false, why:"The present perfect would suggest you are still at school, and the clause explicitly places the period in the past." },
+    { t:"was / have used", ok:false, why:"The second verb sits inside the same finished period as the first, so it must stay in the past simple. Mixing frames mid-sentence like this is the most common tense-control slip in Part 1 answers." }
+  ]},
+
+/* ===== NOTICE (6) ===== */
+{ id:"N1", sec:"notice", tag:"T1", type:"mc",
+  stem:"&ldquo;<em>in the 1990s</em>&rdquo; — what kind of period is this?",
+  opts:[
+    { t:"A finished period → past simple", ok:true, why:"A named decade is over. A completed period cannot be linked to the present, so the past simple is the only option." },
+    { t:"A period running up to now → present perfect", ok:false, why:"The 1990s ended; nothing in that decade is still in progress, so there is no period reaching the present for a perfect form to describe." }
+  ]},
+
+{ id:"N2", sec:"notice", tag:"T4", type:"mc",
+  stem:"&ldquo;<em>over the past decade</em>&rdquo; — what kind of period is this?",
+  opts:[
+    { t:"A period running up to now → present perfect", ok:true, why:"<em>The past decade</em> is measured backwards from today and therefore includes this moment. The period is still open, which is what the present perfect requires." },
+    { t:"A finished period → past simple", ok:false, why:"Compare it with <em>in the 1990s</em>: that decade has an end date, while <em>the past decade</em> ends now. Open period, perfect form." }
+  ]},
+
+{ id:"N3", sec:"notice", tag:"T1", type:"mc",
+  stem:"&ldquo;<em>when I was an undergraduate</em>&rdquo; — what kind of period is this?",
+  opts:[
+    { t:"A finished period → past simple", ok:true, why:"A closed stage of life. The clause itself sets a finished frame, and every verb inside it stays in the past simple." },
+    { t:"A period running up to now → present perfect", ok:false, why:"The clause is in the past simple (<em>was</em>), which announces that the stage is over. Nothing in it reaches the present." }
+  ]},
+
+{ id:"N4", sec:"notice", tag:"T3", type:"mc",
+  stem:"&ldquo;<em>so far this term</em>&rdquo; — the term is still running.",
+  opts:[
+    { t:"A period running up to now → present perfect", ok:true, why:"<em>So far</em> explicitly announces that the period is incomplete: this much has happened, and more may follow." },
+    { t:"A finished period → past simple", ok:false, why:"<em>So far</em> and the past simple contradict each other — one keeps the period open, the other closes it." }
+  ]},
+
+{ id:"N5", sec:"notice", tag:"T1", type:"mc",
+  stem:"&ldquo;<em>three years ago</em>&rdquo; — what kind of period is this?",
+  opts:[
+    { t:"A finished period → past simple", ok:true, why:"<em>Ago</em> counts backwards from now to a fixed point and leaves the event there. It names a moment in the past, so the past simple follows." },
+    { t:"A period running up to now → present perfect", ok:false, why:"<em>Ago</em> is measured from now but it does not stretch to now. Contrast it with <em>for three years</em>, which does. <em>I have started three years ago</em> is a classic T1 error." }
+  ]},
+
+{ id:"N6", sec:"notice", tag:"T3", type:"mc",
+  stem:"&ldquo;<em>since the government changed the policy</em>&rdquo; — what kind of period is this?",
+  opts:[
+    { t:"A period running up to now → present perfect", ok:true, why:"<em>Since</em> plus a past event opens a period that runs from that event to the present. Note the split: the <em>since</em>-clause itself takes the past simple, while the main clause takes the present perfect." },
+    { t:"A finished period → past simple", ok:false, why:"The change of policy is finished, but <em>since</em> uses it as a starting line, not as the whole period. What follows it is still running." }
+  ]},
+
+/* ===== CHOOSE (6) ===== */
+{ id:"C1", sec:"choose", tag:"T1", type:"mc",
+  stem:"The city council <span class=\"gapmark\">___</span> the bus network in 2021, and passenger numbers <span class=\"gapmark\">___</span> steadily ever since.",
+  opts:[
+    { t:"redesigned / have grown", ok:true, why:"<em>In 2021</em> is a fixed finished date, so past simple; <em>ever since</em> opens a period reaching the present, so present perfect. One sentence, two frames, both marked." },
+    { t:"has redesigned / have grown", ok:false, why:"<em>In 2021</em> blocks the present perfect. The second half is right, which makes this a tempting half-answer." },
+    { t:"redesigned / grew", ok:false, why:"<em>Ever since</em> runs to the present, so the second verb needs a perfect form; the past simple would stop the growth at some unstated past point." }
+  ]},
+
+{ id:"C2", sec:"choose", tag:"T2", type:"mc",
+  stem:"I <span class=\"gapmark\">___</span> never <span class=\"gapmark\">___</span> a research proposal before, so I’m nervous about next week.",
+  opts:[
+    { t:"have / written", ok:true, why:"<em>Before</em> here means “at any point in my life up to now”, with no period stated — the experience use of the present perfect, and the reason the speaker is nervous now." },
+    { t:"did / write", ok:false, why:"The past simple would need a closed period to sit in, such as <em>during my degree</em>. Without one, the sentence loses the link to the speaker’s present situation." },
+    { t:"have / wrote", ok:false, why:"After <em>have</em> English requires the past participle <em>written</em>. <em>Wrote</em> is the past simple form and cannot follow an auxiliary." }
+  ]},
+
+{ id:"C3", sec:"choose", tag:"T3", type:"mc",
+  stem:"My tutor <span class=\"gapmark\">___</span> at this university for eleven years and still teaches the same module.",
+  opts:[
+    { t:"has worked", ok:true, why:"<em>For eleven years</em> plus <em>still teaches</em> shows a period that began in the past and includes now. That is the present perfect’s core job." },
+    { t:"works", ok:false, why:"The present simple can state that she works here, but it cannot carry a duration measured back from the present. <em>She works here for eleven years</em> is the classic Turkish-transfer error." },
+    { t:"worked", ok:false, why:"The past simple ends the period, which directly contradicts <em>still teaches the same module</em>." }
+  ]},
+
+{ id:"C4", sec:"choose", tag:"T4", type:"mc",
+  stem:"Applications to the course <span class=\"gapmark\">___</span> recently, which is why the department <span class=\"gapmark\">___</span> a second interview round last week.",
+  opts:[
+    { t:"have increased / added", ok:true, why:"<em>Recently</em> points to a change whose effect holds now, so present perfect; <em>last week</em> is finished time, so past simple. The sentence moves from an open period to a closed one, and marks each correctly." },
+    { t:"increased / has added", ok:false, why:"Reversed. <em>Recently</em> keeps the period open and <em>last week</em> closes it, so the tenses have been swapped onto the wrong clauses." },
+    { t:"have increased / have added", ok:false, why:"The first half is right, but <em>last week</em> is a completed time reference and cannot take a present perfect." }
+  ]},
+
+{ id:"C5", sec:"choose", tag:"T5", type:"mc",
+  stem:"<span class=\"who\">Examiner, Part 3</span><span class=\"turn\">&ldquo;How has your city changed in the last ten years?&rdquo;</span><span class=\"who\">Which answer keeps control of the frame?</span>",
+  opts:[
+    { t:"&ldquo;It has become much busier, and the metro has made commuting far easier.&rdquo;", ok:true, why:"<em>In the last ten years</em> is an open period, and the answer stays inside it across both clauses. Repeating the examiner’s frame is the cheapest way to sound grammatically controlled." },
+    { t:"&ldquo;It became much busier, and the metro made commuting far easier.&rdquo;", ok:false, why:"The question opens a period reaching the present; the past simple abandons it and reports a closed era instead. The answer is not wrong in isolation — it is wrong as a reply to this question, which is exactly what frame drift means." },
+    { t:"&ldquo;It became much busier since the metro opened.&rdquo;", ok:false, why:"<em>Since</em> opens a period that reaches the present, so the main clause needs a perfect form: <em>it has become</em>. Only the <em>since</em>-clause itself takes the past simple." }
+  ]},
+
+{ id:"C6", sec:"choose", tag:"T6", type:"mc",
+  stem:"Since the new library opened, borrowing rates <span class=\"gapmark\">___</span> by nearly a third.",
+  opts:[
+    { t:"have fallen", ok:true, why:"<em>Since</em> requires a perfect form in the main clause; <em>rates</em> is plural so the auxiliary is <em>have</em>; and <em>fallen</em> is the past participle of <em>fall</em>." },
+    { t:"have fell", ok:false, why:"<em>Fell</em> is the past simple form. The participle after <em>have</em> is <em>fallen</em> — the same trap as <em>rose</em> for <em>risen</em>." },
+    { t:"has fallen", ok:false, why:"The participle is right but the subject <em>rates</em> is plural and needs <em>have</em>. Agreement slips like this are heard as carelessness rather than as a rule problem, so they are worth drilling separately." }
+  ]},
+
+/* ===== REPAIR (6) ===== */
+{ id:"R1", sec:"repair", tag:"T1", type:"text",
+  stem:"<span class=\"ctx\">One tense error. Rewrite the sentence.</span>&ldquo;I have visited my grandparents in Ankara last summer.&rdquo;",
+  label:"Your corrected sentence",
+  check:[ { must:["visited"], mustNot:["have visited","has visited","ve visited"] } ],
+  model:"I visited my grandparents in Ankara last summer.",
+  alts:["You may also keep the present perfect and remove the finished-time marker instead — <em>I have visited my grandparents in Ankara twice this year</em> — but that changes what you are saying, so it is a different sentence rather than a repair."],
+  why:"<em>Last summer</em> is a closed period. Either the time marker goes or the auxiliary does; you cannot keep both. Deleting <em>have</em> is the repair that preserves the original meaning." },
+
+{ id:"R2", sec:"repair", tag:"T3", type:"text",
+  stem:"<span class=\"ctx\">One tense error. Rewrite the sentence.</span>&ldquo;I am studying engineering since 2022.&rdquo;",
+  label:"Your corrected sentence",
+  check:[ { must:[["have been studying","ve been studying","have studied","ve studied"],"since 2022"], mustNot:["am studying","are studying"] } ],
+  model:"I have been studying engineering since 2022.",
+  alts:["<em>I have studied engineering since 2022</em> is also accepted. The continuous stresses the ongoing activity and is the more natural spoken choice; the simple form is slightly more formal."],
+  why:"<em>Since</em> plus a starting point needs a perfect form. The present continuous only covers what is happening at this moment and cannot reach back to 2022. Turkish expresses this duration with a present tense, which is why the error is so persistent." },
+
+{ id:"R3", sec:"repair", tag:"T6", type:"text",
+  stem:"<span class=\"ctx\">One form error. Rewrite the question.</span>&ldquo;Have you ever went abroad for a summer school?&rdquo;",
+  label:"Your corrected question",
+  check:[ { must:[["have you ever been","have you ever gone"]], mustNot:["ever went"] } ],
+  model:"Have you ever been abroad for a summer school?",
+  alts:["<em>Have you ever gone abroad…</em> is accepted, with a small difference: <em>been</em> means you went and came back, while <em>gone</em> suggests you are still away — so <em>been</em> is the natural choice in a question about past experience."],
+  why:"<em>Went</em> is the past simple form and cannot follow <em>have</em>. The tense choice itself was already right: <em>ever</em> asks about life experience, so the present perfect is correct — only the participle needed fixing." },
+
+{ id:"R4", sec:"repair", tag:"T5", type:"text",
+  stem:"<span class=\"ctx\">One tense error. Rewrite the sentence.</span>&ldquo;Since I moved to this city, my speaking improved a lot.&rdquo;",
+  label:"Your corrected sentence",
+  check:[ { must:[["has improved","has got better","has become better","has really improved"]], mustNot:["speaking improved"] } ],
+  model:"Since I moved to this city, my speaking has improved a lot.",
+  alts:["<em>… my speaking has got better</em> is also accepted. What must change is the main clause, not the <em>since</em>-clause."],
+  why:"This is the split that trips learners up: the <em>since</em>-clause takes the past simple because the move is a finished event, but the main clause measures change up to now and needs the present perfect. Getting only one half right is the commonest outcome." },
+
+{ id:"R5", sec:"repair", tag:"T1", type:"text",
+  stem:"<span class=\"ctx\">One tense error. Rewrite the sentence.</span>&ldquo;The department has published its new handbook two weeks ago.&rdquo;",
+  label:"Your corrected sentence",
+  check:[
+    { must:["published","ago"], mustNot:["has published","have published"] },
+    { must:[["has just published","has recently published","has published"]], mustNot:["ago"] }
+  ],
+  model:"The department published its new handbook two weeks ago.",
+  alts:["<em>The department has just published its new handbook</em> is also accepted — that repair keeps the present perfect and removes <em>two weeks ago</em> instead. Both are correct English; they differ in whether you want to date the event or stress that it is fresh."],
+  why:"<em>Ago</em> measures backwards from now to a fixed point, so it behaves exactly like <em>in 2019</em> or <em>last summer</em>. Because it contains the word <em>now</em> in its logic, learners often mistake it for a present-perfect signal — it is not." },
+
+{ id:"R6", sec:"repair", tag:"T3", type:"text",
+  stem:"<span class=\"ctx\">One tense error. Rewrite the sentence.</span>&ldquo;I know my best friend since we were children.&rdquo;",
+  label:"Your corrected sentence",
+  check:[ { must:[["have known","ve known"]], mustNot:["i know my","i am knowing","have been knowing"] } ],
+  model:"I have known my best friend since we were children.",
+  alts:["Only the simple perfect is accepted here. <em>I have been knowing</em> is not possible: <em>know</em> is a state verb and states do not normally take the continuous."],
+  why:"A state lasting from a past point up to now takes the present perfect simple. Turkish handles this with a present tense, so this is transfer rather than inattention — which is good news, because a transfer error has a rule attached and can be fixed by rule." },
+
+/* ===== PRODUCE (6) ===== */
+{ id:"P1", sec:"produce", tag:"T1", type:"gap",
+  stem:"<span class=\"ctx\">Two sentences about the same course. Use the verb <em>take</em>.</span>(a) I <span class=\"gapmark\">___</span> that statistics course in my second year. &nbsp;&nbsp; (b) I <span class=\"gapmark\">___</span> three statistics courses so far.",
+  gaps:[
+    { lab:"(a) … in my second year", accept:["took"] },
+    { lab:"(b) … so far", accept:["have taken","'ve taken","i have taken","i've taken"] }
+  ],
+  model:"(a) took &nbsp;&middot;&nbsp; (b) have taken",
+  why:"The minimal pair that makes the whole contrast visible: <em>in my second year</em> closes the period, <em>so far</em> leaves it open. Same verb, same speaker, different tense — because the time expression decides, not the meaning of the verb." },
+
+{ id:"P2", sec:"produce", tag:"T3", type:"gap",
+  stem:"<span class=\"ctx\">Use the verb <em>work</em>.</span>My sister <span class=\"gapmark\">___</span> for the same research group since she graduated.",
+  gaps:[ { lab:"verb phrase", accept:["has worked","has been working","'s worked","she has worked","she's worked","she has been working"] } ],
+  model:"has worked &nbsp;(or&nbsp; has been working)",
+  why:"<em>Since she graduated</em> opens a period reaching the present. Both the simple and the continuous perfect are accepted: the continuous stresses that the work is still going on, the simple treats it as a single stretch." },
+
+{ id:"P3", sec:"produce", tag:"T4", type:"gap",
+  stem:"<span class=\"ctx\">Use the verb <em>become</em>.</span>Over the past decade, remote study <span class=\"gapmark\">___</span> far more common.",
+  gaps:[ { lab:"verb phrase", accept:["has become","'s become"] } ],
+  model:"has become",
+  why:"This is the single most useful pattern for Part 3 change-over-time answers. <em>Has become</em> plus a comparative does the work of a whole sentence, and it signals present relevance without any extra vocabulary." },
+
+{ id:"P4", sec:"produce", tag:"T2", type:"gap",
+  stem:"<span class=\"ctx\">Use the verb <em>give</em>. Write the whole verb phrase including <em>never</em>.</span>I <span class=\"gapmark\">___</span> a presentation in English before this course.",
+  gaps:[ { lab:"verb phrase with <em>never</em>", accept:["have never given","'ve never given","i have never given","i've never given"] } ],
+  model:"have never given",
+  why:"<em>Never … before</em> is experience up to now, so the present perfect is needed, and the participle of <em>give</em> is <em>given</em>. Placing <em>never</em> between the auxiliary and the participle is the standard position." },
+
+{ id:"P5", sec:"produce", tag:"T1", type:"gap",
+  stem:"<span class=\"ctx\">Use the verb <em>attend</em> in the negative.</span>I <span class=\"gapmark\">___</span> the seminar last Thursday because I was ill.",
+  gaps:[ { lab:"negative verb phrase", accept:["didn't attend","did not attend","didnt attend"] } ],
+  model:"didn’t attend &nbsp;(or&nbsp; did not attend)",
+  why:"<em>Last Thursday</em> is finished time, so the negative is built with <em>didn’t</em> plus the base form — never <em>didn’t attended</em>. Learners who have just been taught the present perfect often produce <em>haven’t attended</em> here; the time marker rules it out." },
+
+{ id:"P6", sec:"produce", tag:"T6", type:"gap",
+  stem:"<span class=\"ctx\">Use the verb <em>write</em>.</span>She <span class=\"gapmark\">___</span> four papers since January.",
+  gaps:[ { lab:"verb phrase", accept:["has written","'s written","she has written","she's written"] } ],
+  model:"has written",
+  why:"Third person singular <em>has</em>, and the participle <em>written</em> rather than the past simple <em>wrote</em>. <em>Since January</em> keeps the count open — a fifth paper may still arrive." },
+
+/* ===== APPLY (4) ===== */
+{ id:"A1", sec:"apply", tag:"T3", type:"mc",
+  stem:"<span class=\"who\">Examiner, Part 1</span><span class=\"turn\">&ldquo;Where did you grow up?&rdquo;</span><span class=\"who\">Candidate</span><span class=\"turn\">&ldquo;I grew up in a small town near Bursa.&rdquo;</span><span class=\"who\">Examiner</span><span class=\"turn\">&ldquo;Do you still visit it?&rdquo;</span><span class=\"who\">Best continuation</span>",
+  opts:[
+    { t:"&ldquo;Yes — I’ve been back three times so far this year.&rdquo;", ok:true, why:"<em>So far this year</em> marks the period as still open, so the count takes the present perfect. Note that the first answer was correctly in the past simple — the frame changed because the question changed, which is control rather than drift." },
+    { t:"&ldquo;Yes — I went back three times so far this year.&rdquo;", ok:false, why:"<em>So far</em> keeps the period open and the past simple closes it; the two cannot appear in the same clause." },
+    { t:"&ldquo;Yes — I am back three times so far this year.&rdquo;", ok:false, why:"The present simple or continuous cannot count completed visits inside an open period. It reports a state now, not a tally." }
+  ]},
+
+{ id:"A2", sec:"apply", tag:"T5", type:"mc",
+  stem:"<span class=\"who\">Examiner, Part 1 follow-up</span><span class=\"turn\">&ldquo;And has the town changed much?&rdquo;</span><span class=\"who\">Best continuation</span>",
+  opts:[
+    { t:"&ldquo;Quite a lot, actually. They’ve built a new shopping centre and a lot of the old shops have closed.&rdquo;", ok:true, why:"The examiner’s <em>has … changed</em> sets an open period, and both supporting details stay inside it. Holding the frame across two supporting sentences is the specific skill this lab is training." },
+    { t:"&ldquo;Quite a lot, actually. They built a new shopping centre and a lot of the old shops closed.&rdquo;", ok:false, why:"Frame drift. The past simple would only be right if you named a finished time — <em>they built it in 2018</em> is fine, because the date licenses the tense. Without one, the answer stops matching the question." },
+    { t:"&ldquo;Quite a lot, actually. They are building a new shopping centre and a lot of the old shops are closing.&rdquo;", ok:false, why:"The present continuous reports what is in progress at the moment, not the accumulated change the question asks about. It answers “what is happening now?” instead of “what has changed?”" }
+  ]},
+
+{ id:"A3", sec:"apply", tag:"T1", type:"mc",
+  stem:"<span class=\"who\">Part 2 cue card</span><span class=\"turn\">&ldquo;Describe a skill you learned outside school.&rdquo;</span><span class=\"who\">Which opening sets up a frame you can hold for two minutes?</span>",
+  opts:[
+    { t:"&ldquo;I’d like to talk about swimming, which I learned when I was about nine. My uncle taught me over one summer at my grandparents’ house.&rdquo;", ok:true, why:"The whole narrative sits in a closed past period, so the past simple runs throughout. Part 2 answers are usually stories, and stories that start in the past simple are far easier to keep consistent for two minutes." },
+    { t:"&ldquo;I’d like to talk about swimming, which I have learned when I was about nine.&rdquo;", ok:false, why:"<em>When I was about nine</em> is a finished-time clause and blocks the present perfect. This is the T1 error appearing in the opening line, where it does the most damage to the examiner’s first impression." },
+    { t:"&ldquo;I’d like to talk about swimming, which I learn when I was about nine.&rdquo;", ok:false, why:"The present simple cannot describe a single completed event located in a past time frame." }
+  ]},
+
+{ id:"A4", sec:"apply", tag:"T4", type:"mc",
+  stem:"<span class=\"who\">Examiner, Part 3</span><span class=\"turn\">&ldquo;How have attitudes to public transport changed in your country?&rdquo;</span><span class=\"who\">Which answer shows the most controlled range?</span>",
+  opts:[
+    { t:"&ldquo;They’ve shifted quite noticeably. Ten years ago most families saw a car as a status symbol, whereas now the metro has become the default way to commute.&rdquo;", ok:true, why:"Three moves, all licensed: present perfect to match the question, past simple where <em>ten years ago</em> names a finished point, then back to the present perfect for the current result. Moving between frames on purpose is what separates Band 6 from Band 7 — accuracy alone is not enough without the range." },
+    { t:"&ldquo;They shifted quite noticeably. Ten years ago most families saw a car as a status symbol, and now the metro became the default way to commute.&rdquo;", ok:false, why:"Two faults: the opening drops the examiner’s frame, and <em>now … became</em> puts a present situation into the past. The second is the more serious, because it makes the answer hard to follow." },
+    { t:"&ldquo;They have shifted quite noticeably. Ten years ago most families have seen a car as a status symbol, and now the metro has become the default.&rdquo;", ok:false, why:"The opening and closing are right, but <em>ten years ago</em> is finished time and cannot take a present perfect. Over-correcting into the perfect everywhere is what learners often do immediately after a lesson on this contrast." }
+  ]}
+];
+
+/* ---------- 4. SELF-AUDIT CHECKLIST ---------- */
+const AUDIT = [
+  { id:"AU1", tag:"T1", t:"Every time I named a finished time (<em>in 2019, last year, when I was at school, two years ago</em>) I used the past simple." },
+  { id:"AU2", tag:"T2", t:"I used the present perfect for experiences with no stated time — <em>I’ve never…, I’ve done that twice</em>." },
+  { id:"AU3", tag:"T3", t:"I produced at least one <em>since</em> sentence with a past simple clause and a present perfect main clause." },
+  { id:"AU4", tag:"T4", t:"In the change-over-time answers I used at least one <em>has/have become</em> or <em>there has been a rise in…</em>" },
+  { id:"AU5", tag:"T5", t:"When the examiner’s question used <em>has…changed</em> or <em>since</em>, my whole answer stayed in that frame, not just the first sentence." },
+  { id:"AU6", tag:"T6", t:"After <em>have</em> or <em>has</em> I used a past participle every time — <em>risen</em> not <em>rose</em>, <em>written</em> not <em>wrote</em>, <em>been</em> not <em>went</em>." },
+  { id:"AU7", tag:"T3", t:"I used <em>for</em> with a length of time (<em>for six years</em>) and <em>since</em> with a starting point (<em>since 2020</em>)." },
+  { id:"AU8", tag:"T5", t:"I self-corrected at most twice, and I repaired the verb rather than restarting the whole sentence." }
+];
+
+/* ---------- 5. ADAPTIVE NEXT-STEP CONTENT ---------- */
+const NEXT = {
+  T1:{ title:"Your priority: the finished-time clash",
+    what:"You are attaching the present perfect to time markers that are already closed. This is the most visible tense error in Speaking because the marker and the auxiliary sit in the same breath — an examiner hears it instantly, and it is the pattern most likely to hold an otherwise fluent answer at Band 5.5.",
+    rule:"If you say <em>when</em>, use the past simple. There is no exception worth learning at this level.",
+    drill:["Say five true sentences about last year, each beginning with a finished-time marker: <em>Last year I…</em>, <em>In 2024 I…</em>, <em>Three months ago I…</em>, <em>When I was at school I…</em>, <em>Last week I…</em>","Then say the same five facts again <strong>without</strong> the time marker, switching to the present perfect: <em>I’ve…</em>","Notice that removing the marker is what licenses the change. Ten minutes, out loud, once."],
+    micro:"Record a 60-second answer to <em>&ldquo;What did you do to prepare for this exam last month?&rdquo;</em> The question names a finished period, so every main verb should be a past simple. Play it back and count the auxiliaries — you want zero." },
+  T2:{ title:"Your priority: experience versus single event",
+    what:"You are using one tense for both jobs — either narrating single events in the perfect, or answering experience questions in the past simple. The grammar is usually fine in isolation; what is missing is the choice between the two.",
+    rule:"No time stated and it happened at some point in your life → present perfect. One dated occasion → past simple.",
+    drill:["Take three activities you have done: presenting, travelling abroad, giving a speech in English.","For each, say two sentences: the experience (<em>I’ve presented twice</em>) and then one specific occasion (<em>The first time was in March, and I was terrified</em>).","That two-sentence shape — perfect then past — is the single most useful Part 1 answer pattern there is. Six sentences, ten minutes."],
+    micro:"Answer <em>&ldquo;Have you ever studied in another city?&rdquo;</em> in exactly this shape: present perfect to open, past simple to give the specific example, present simple to say how you feel about it now." },
+  T3:{ title:"Your priority: duration and states running up to now",
+    what:"When a situation started in the past and is still true, you are reaching for the present simple or the present continuous. If your first language is Turkish this is structural, not careless: <em>-den beri</em> takes a present tense, so <em>2020’den beri burada yaşıyorum</em> comes out as “I live here since 2020”.",
+    rule:"<em>Since</em> or <em>for</em> plus a situation that is still true → present perfect. Always. The Turkish structure does not transfer.",
+    drill:["Write four facts about yourself that were true in the past and are still true now: where you live, what you study, a friendship, a habit.","Say each one twice — once with <em>for</em> plus a length of time, once with <em>since</em> plus a starting point: <em>I’ve lived here for six years / I’ve lived here since 2019.</em>","Eight sentences, out loud, and stop each time you hear yourself begin with <em>I am</em> or <em>I live</em>."],
+    micro:"Answer <em>&ldquo;How long have you been learning English?&rdquo;</em> aloud five times, varying the ending. The auxiliary <em>have</em> must survive all five." },
+  T4:{ title:"Your priority: recent change and present relevance",
+    what:"You are describing change with the past simple, which reports it as finished history rather than as something that shapes the present. It is not always an accuracy problem — more often it is a range problem, and range is half of the criterion.",
+    rule:"If the result is what matters now, or the period reaches the present (<em>recently, over the past decade, since 2020</em>), use the present perfect.",
+    drill:["Learn three frames by heart and say each one twice with different content: <em>X has become far more…</em>, <em>There has been a noticeable rise in…</em>, <em>X has had a real effect on…</em>","Apply them to: transport in your city, the cost of studying, how people use their phones.","Six sentences. These three frames alone will carry most Part 3 change questions you meet."],
+    micro:"Answer <em>&ldquo;How has technology changed the way students learn?&rdquo;</em> in 90 seconds using all three frames, then one past simple sentence with a named year to show you can move between frames deliberately." },
+  T5:{ title:"Your priority: holding the frame across turns",
+    what:"Your first sentence is usually right and the follow-up drifts. This is the pattern that separates a 6.0 from a 7.0 more often than any single rule, because examiners assess consistency across a whole answer rather than sentence by sentence.",
+    rule:"Listen to the auxiliary in the examiner’s question and start your answer with the same one. If the question says <em>has…changed</em>, your first verb is <em>has changed</em> — and it stays there until you name a specific time.",
+    drill:["Take one question: <em>How has your neighbourhood changed?</em>","Answer in exactly four sentences. Sentences one, two and four must be present perfect. Sentence three must be past simple and must contain a year.","Say it three times. The point is not the content — it is feeling the deliberate move out and back."],
+    micro:"Record a three-turn exchange with yourself: a <em>did</em> question, then a <em>have you</em> follow-up, then a <em>how has it changed</em> extension. Play it back and mark where the frame changed and whether the question licensed it." },
+  T6:{ title:"Your priority: participle form and agreement",
+    what:"The tense choice is largely right; the form after <em>have</em> or <em>has</em> is not. Examiners hear <em>have went</em> and <em>have rose</em> as basic slips, so they cost more than the effort of fixing them.",
+    rule:"After <em>have</em> or <em>has</em>, use the third form: go–went–<strong>gone</strong>, rise–rose–<strong>risen</strong>, write–wrote–<strong>written</strong>, fall–fell–<strong>fallen</strong>, see–saw–<strong>seen</strong>.",
+    drill:["Take ten irregular verbs you actually use. Say each as a three-part chain out loud: <em>go, went, gone</em>.","Then immediately build one present perfect sentence from each: <em>I’ve gone…</em>","Ten chains plus ten sentences. Say them; do not write them. This is a motor pattern, not knowledge — you almost certainly already know the forms."],
+    micro:"Speak for one minute on <em>&ldquo;What has changed in your city recently?&rdquo;</em> Play it back with a pen and circle every <em>have</em> or <em>has</em>. Check the word immediately after each one." },
+  OK:{ title:"Your priority: turning accuracy into range",
+    what:"Your accuracy across the six patterns is solid, so more correction drills are not what will move you. At this point the limiting factor is range — whether the contrast appears in your speech as a deliberate choice or only when the question forces it.",
+    rule:"Aim to move between frames on purpose at least once in every Part 3 answer, and to signal it clearly with a time expression.",
+    drill:["Take any Part 3 question about change and answer it in four sentences.","Sentence one: present perfect (the overall change). Sentence two: past simple with a named year (the specific evidence). Sentence three: present simple (how things stand now). Sentence four: present perfect again (why it matters).","Do this for three different questions. Ten minutes."],
+    micro:"Record two answers to the same Part 3 question — one deliberately flat, all in the present simple, and one using the four-sentence shape above. The gap between them is what the Grammatical Range half of the criterion is measuring." }
+};
+
+/* ---------- 6. TEACHER INTERPRETATION + SCRIPTS ---------- */
+const INTERP = {
+  T1:{ mean:"The learner has been taught the present perfect and is over-applying it. Counter-intuitively this often appears <em>after</em> a good lesson on the perfect, so treat it as a sign of learning in progress rather than of weak grammar.", next:"Ten minutes of marker-first drilling: the learner says the time marker aloud before the verb. Then a Part 2 narrative task, which forces a sustained past simple." },
+  T2:{ mean:"The learner has one default tense for talking about the past and has not yet separated the two jobs. Check whether they can hear the difference before assuming they cannot produce it.", next:"The two-sentence pattern — perfect to open, past simple for the specific occasion. Drill it as a fixed Part 1 answer shape rather than as a rule." },
+  T3:{ mean:"Almost always Turkish L1 transfer with <em>-den beri</em>. Name it explicitly. Learners relax noticeably when they hear that the error has a structural cause and a rule attached.", next:"<em>For</em> and <em>since</em> sentences about the learner’s own life, spoken not written. Personal content makes the form stick faster than exercise sentences." },
+  T4:{ mean:"Usually a range problem masquerading as an accuracy problem. The learner can form the present perfect but avoids it, so change-over-time answers come out flat and under-length.", next:"Three fixed frames: <em>has become</em>, <em>there has been a rise in</em>, <em>has had an effect on</em>. Do not add a fourth in the same session." },
+  T5:{ mean:"The clearest predictor of a Band 6 ceiling in GRA. The learner knows the rules and loses them under the cognitive load of generating content — so this is an automaticity problem, not a knowledge problem.", next:"Three-turn exchanges with the learner listening for the auxiliary in the question. Short, frequent repetitions beat one long session." },
+  T6:{ mean:"Mechanical, and the quickest win on the page. Do not spend teaching time on the concept — the learner nearly always knows the forms and simply has not automatised them in speech.", next:"Sixty seconds of irregular-verb chains at the start of each lesson for two weeks. Treat it as a warm-up, never as the lesson." },
+  OK:{ mean:"Accuracy is not the limiting factor. Further correction work will produce diminishing returns and can make the learner more hesitant, which costs Fluency.", next:"Shift to range: deliberate frame movement inside a single answer, and length of turn. Move the assessment focus from errors to variety." }
+};
+
+const SCRIPTS = [
+  { h:"Opening — confidence anchor, before you show any results",
+    say:"Before we look at the screen: your fluency has never been the problem. You keep talking, you self-correct, you don’t freeze. What we’re fixing today is one specific habit, and it’s a habit, not a gap in your English.",
+    meta:"Mastery beliefs drive persistence more reliably than ability does. Open with a real, specific strength so the learner reads the dashboard as a map rather than a verdict." },
+  { h:"Delivering the dashboard — two or three items maximum",
+    say:"Look at this bar here. Everything else is fine. This one pattern is costing you more than all the others put together — so that’s the only thing we’re working on this week. Not everything. This.",
+    meta:"Cap corrective feedback at two or three high-impact items. A full error list produces overload and disengagement, and the learner remembers none of it." },
+  { h:"The confident-but-wrong box",
+    say:"These three are the interesting ones. You were sure, and you were wrong. That’s not bad news — it’s the most useful thing on the page, because those are the errors you’d never have caught on your own. Now you can hear them.",
+    meta:"Reframe the blind spot as information. Confident errors never self-correct, so surfacing them is the highest-value output of the whole diagnostic." },
+  { h:"Turkish L1 pattern — T3 and T4",
+    say:"Say this in Turkish: <em>iki yıldır burada yaşıyorum</em>. Present tense, right? English won’t let you do that — it needs <em>I’ve lived</em>. Your brain is doing the correct Turkish thing. We just need an English rule sitting on top of it.",
+    meta:"De-personalises the error and gives the learner something concrete to hold. Frame as a predictable pattern with a rule, never as a personal deficiency." },
+  { h:"When the learner is discouraged by the score",
+    say:"You got seven out of ten and you’re annoyed about three. Look at which three — they’re all the same pattern. That’s not three problems, it’s one problem showing up three times. One is a much better number to work with.",
+    meta:"Plateaus and mixed results are where motivation drains. Reframe scattered errors as a single fixable pattern to keep perceived effort proportionate to perceived gain." },
+  { h:"Closing — one doable next step",
+    say:"One thing before next lesson. Not a worksheet — ten minutes, out loud, in the car or wherever. Five sentences with a time marker, five without. That’s it. If you do just that, I’ll hear the difference next week.",
+    meta:"Calibrate homework to roughly 80% confidence of completion. A task the learner actually finishes beats a comprehensive one they abandon, and finishing feeds the self-efficacy loop." }
+];
+
+
+/* ============================================================
+   ENGINE
+   ============================================================ */
+
+const LS_KEY = "ielts-lab-ps-pp-v1";
+const ITEMMAP = {}; ITEMS.forEach(i => ITEMMAP[i.id] = i);
+const TOTAL = ITEMS.length;
+
+let state = { ans:{}, conf:{}, checked:{}, audit:{}, entryScored:false, showAll:false };
+
+function save(){
+  try { localStorage.setItem(LS_KEY, JSON.stringify(state)); } catch(e){ /* storage unavailable */ }
+}
+function load(){
+  try {
+    const raw = localStorage.getItem(LS_KEY);
+    if(!raw) return;
+    const p = JSON.parse(raw);
+    if(p && typeof p === "object"){
+      state = Object.assign({ ans:{}, conf:{}, checked:{}, audit:{}, entryScored:false, showAll:false }, p);
+    }
+  } catch(e){ /* ignore corrupt state */ }
+}
+
+/* ---------- text normalisation & matching ---------- */
+function norm(s){
+  return String(s||"")
+    .toLowerCase()
+    .replace(/[‘’ʼ]/g, "'")
+    .replace(/[“”]/g, '"')
+    .replace(/[–—]/g, "-")
+    .replace(/[.,;:!?"]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+function hasAll(hay, list){
+  return list.every(function(req){
+    if(Array.isArray(req)) return req.some(function(r){ return hay.indexOf(norm(r)) !== -1; });
+    return hay.indexOf(norm(req)) !== -1;
+  });
+}
+function hasNone(hay, list){
+  if(!list || !list.length) return true;
+  return list.every(function(bad){ return hay.indexOf(norm(bad)) === -1; });
+}
+function matchText(item, val){
+  const hay = " " + norm(val) + " ";
+  if(!norm(val)) return false;
+  return item.check.some(function(m){
+    return hasAll(hay, m.must || []) && hasNone(hay, m.mustNot || []);
+  });
+}
+function matchGap(gap, val){
+  const v = norm(val);
+  if(!v) return false;
+  return gap.accept.some(function(a){ return norm(a) === v; });
+}
+
+/* ---------- item state helpers ---------- */
+function isAnswered(item){
+  const a = state.ans[item.id];
+  if(item.type === "mc") return typeof a === "number";
+  if(item.type === "text") return typeof a === "string" && a.trim() !== "";
+  if(item.type === "gap") return Array.isArray(a) && a.length === item.gaps.length && a.every(function(x){ return String(x||"").trim() !== ""; });
+  return false;
+}
+function isCorrect(item){
+  const a = state.ans[item.id];
+  if(!isAnswered(item)) return false;
+  if(item.type === "mc") return !!item.opts[a] && item.opts[a].ok === true;
+  if(item.type === "text") return matchText(item, a);
+  if(item.type === "gap") return item.gaps.every(function(g,i){ return matchGap(g, a[i]); });
+  return false;
+}
+
+/* ---------- rendering ---------- */
+function unmark(id){
+  const wrap = document.getElementById("item-" + id);
+  if(!wrap) return;
+  if(state.checked[id]){
+    delete state.checked[id];
+    wrap.classList.remove("checked","correct","wrong");
+    wrap.querySelectorAll(".opt").forEach(function(l){
+      l.classList.remove("is-correct","is-chosen-wrong");
+      l.querySelectorAll(".badge").forEach(function(b){ b.remove(); });
+    });
+    if(!state.showAll){ wrap.querySelectorAll(".why").forEach(function(w){ w.hidden = true; }); }
+    const fb = document.getElementById("fb-" + id);
+    if(fb){ fb.className = "fb"; fb.innerHTML = ""; }
+    renderDashboard(); renderNextStep();
+  }
+}
+
+function el(tag, cls, html){
+  const n = document.createElement(tag);
+  if(cls) n.className = cls;
+  if(html != null) n.innerHTML = html;
+  return n;
+}
+
+function buildItem(item, index){
+  const wrap = el("article", "item");
+  wrap.id = "item-" + item.id;
+  wrap.setAttribute("data-id", item.id);
+
+  const head = el("div", "ihead");
+  head.appendChild(el("span", "inum", item.id));
+  head.appendChild(el("span", "tag", TAXMAP[item.tag].code + " &middot; " + TAXMAP[item.tag].name));
+  wrap.appendChild(head);
+
+  const fs = el("fieldset");
+  const lg = el("legend", "stem");
+  lg.innerHTML = item.stem;
+  fs.appendChild(lg);
+
+  if(item.type === "mc"){
+    const opts = el("div", "opts");
+    item.opts.forEach(function(o, oi){
+      const lab = el("label", "opt");
+      lab.setAttribute("data-oi", String(oi));
+      const inp = document.createElement("input");
+      inp.type = "radio";
+      inp.name = "q-" + item.id;
+      inp.value = String(oi);
+      inp.id = "q-" + item.id + "-" + oi;
+      if(state.ans[item.id] === oi){ inp.checked = true; lab.classList.add("sel"); }
+      inp.addEventListener("change", function(){
+        unmark(item.id);
+        state.ans[item.id] = oi;
+        opts.querySelectorAll(".opt").forEach(function(l){ l.classList.remove("sel"); });
+        lab.classList.add("sel");
+        save(); refreshProgress();
+      });
+      const txt = el("span", "otext", '<span class="lit">' + o.t + "</span>");
+      lab.appendChild(inp); lab.appendChild(txt);
+      const why = el("p", "why", "<b>Why:</b> " + o.why);
+      why.hidden = !state.showAll;
+      lab.appendChild(document.createTextNode(""));
+      opts.appendChild(lab);
+      opts.appendChild(why);
+    });
+    fs.appendChild(opts);
+  }
+
+  if(item.type === "text"){
+    const tw = el("div", "txtwrap");
+    const id = "t-" + item.id;
+    const lab = el("label", null, item.label || "Your answer");
+    lab.setAttribute("for", id);
+    const inp = document.createElement("input");
+    inp.type = "text"; inp.id = id;
+    inp.setAttribute("autocomplete","off"); inp.setAttribute("autocapitalize","sentences");
+    inp.setAttribute("spellcheck","false");
+    inp.value = state.ans[item.id] || "";
+    inp.addEventListener("input", function(){ unmark(item.id); state.ans[item.id] = inp.value; save(); refreshProgress(); });
+    inp.addEventListener("keydown", function(e){ if(e.key === "Enter"){ e.preventDefault(); checkItem(item.id); } });
+    tw.appendChild(lab); tw.appendChild(inp);
+    fs.appendChild(tw);
+  }
+
+  if(item.type === "gap"){
+    const row = el("div", "gaprow" + (item.gaps.length > 1 ? " two" : ""));
+    item.gaps.forEach(function(g, gi){
+      const f = el("div", "gapfield");
+      const id = "g-" + item.id + "-" + gi;
+      const lab = el("label", "glab", g.lab);
+      lab.setAttribute("for", id);
+      const inp = document.createElement("input");
+      inp.type = "text"; inp.id = id;
+      inp.setAttribute("autocomplete","off"); inp.setAttribute("spellcheck","false");
+      const cur = state.ans[item.id];
+      inp.value = (Array.isArray(cur) && cur[gi]) ? cur[gi] : "";
+      inp.addEventListener("input", function(){
+        unmark(item.id);
+        const a = Array.isArray(state.ans[item.id]) ? state.ans[item.id].slice() : [];
+        while(a.length < item.gaps.length) a.push("");
+        a[gi] = inp.value;
+        state.ans[item.id] = a; save(); refreshProgress();
+      });
+      inp.addEventListener("keydown", function(e){ if(e.key === "Enter"){ e.preventDefault(); checkItem(item.id); } });
+      f.appendChild(lab); f.appendChild(inp);
+      row.appendChild(f);
+    });
+    fs.appendChild(row);
+  }
+
+  wrap.appendChild(fs);
+
+  /* confidence — entry check only */
+  if(item.sec === "entry"){
+    const cf = el("fieldset", "conf");
+    const lg2 = el("legend", null, "How sure are you?");
+    cf.appendChild(lg2);
+    const box = el("div", "confopts");
+    [["sure","Confident"],["unsure","Not sure"]].forEach(function(pair){
+      const lab = el("label", "confopt");
+      const inp = document.createElement("input");
+      inp.type = "radio"; inp.name = "c-" + item.id; inp.value = pair[0];
+      inp.id = "c-" + item.id + "-" + pair[0];
+      if(state.conf[item.id] === pair[0]){ inp.checked = true; lab.classList.add("sel"); }
+      inp.addEventListener("change", function(){
+        state.conf[item.id] = pair[0];
+        box.querySelectorAll(".confopt").forEach(function(l){ l.classList.remove("sel"); });
+        lab.classList.add("sel");
+        save();
+      });
+      lab.appendChild(inp);
+      lab.appendChild(el("span", null, pair[1]));
+      box.appendChild(lab);
+    });
+    cf.appendChild(box);
+    wrap.appendChild(cf);
+  }
+
+  const fb = el("div", "fb");
+  fb.id = "fb-" + item.id;
+  fb.setAttribute("role","status");
+  fb.setAttribute("aria-live","polite");
+  wrap.appendChild(fb);
+
+  /* rationale block for non-mc items */
+  if(item.type !== "mc"){
+    const why = el("p", "why", "<b>Why:</b> " + item.why);
+    why.id = "why-" + item.id;
+    why.hidden = !state.showAll;
+    wrap.appendChild(why);
+  }
+
+  const foot = el("div", "itemfoot no-print");
+  const bCheck = el("button", "btn sm", "Check");
+  bCheck.type = "button";
+  bCheck.addEventListener("click", function(){ checkItem(item.id); });
+  const bWhy = el("button", "btn ghost sm", "Show rationale");
+  bWhy.type = "button";
+  bWhy.setAttribute("aria-pressed","false");
+  bWhy.addEventListener("click", function(){ toggleWhy(item.id, bWhy); });
+  foot.appendChild(bCheck); foot.appendChild(bWhy);
+  wrap.appendChild(foot);
+
+  return wrap;
+}
+
+function toggleWhy(id, btn){
+  const wrap = document.getElementById("item-" + id);
+  if(!wrap) return;
+  const whys = wrap.querySelectorAll(".why");
+  const showing = btn.getAttribute("aria-pressed") === "true";
+  whys.forEach(function(w){ w.hidden = showing; });
+  btn.setAttribute("aria-pressed", showing ? "false" : "true");
+  btn.textContent = showing ? "Show rationale" : "Hide rationale";
+}
+
+function checkItem(id){
+  const item = ITEMMAP[id];
+  const wrap = document.getElementById("item-" + id);
+  const fb = document.getElementById("fb-" + id);
+  if(!item || !wrap || !fb) return;
+
+  if(!isAnswered(item)){
+    fb.className = "fb no";
+    fb.innerHTML = "Nothing to check yet &mdash; write or select an answer first.";
+    return;
+  }
+
+  const ok = isCorrect(item);
+  state.checked[id] = true;
+  wrap.classList.remove("correct","wrong");
+  wrap.classList.add("checked", ok ? "correct" : "wrong");
+
+  if(item.type === "mc"){
+    const chosen = state.ans[id];
+    wrap.querySelectorAll(".opt").forEach(function(lab){
+      const oi = Number(lab.getAttribute("data-oi"));
+      lab.classList.remove("is-correct","is-chosen-wrong");
+      lab.querySelectorAll(".badge").forEach(function(b){ b.remove(); });
+      if(item.opts[oi].ok){
+        lab.classList.add("is-correct");
+        lab.querySelector(".otext").appendChild(el("span","badge ok","Correct"));
+      } else if(oi === chosen){
+        lab.classList.add("is-chosen-wrong");
+        lab.querySelector(".otext").appendChild(el("span","badge no","Your answer"));
+      }
+      const w = lab.nextElementSibling;
+      if(w && w.classList.contains("why")) w.hidden = false;
+    });
+    const right = item.opts.find(function(o){ return o.ok; });
+    fb.className = "fb " + (ok ? "ok" : "no");
+    fb.innerHTML = ok
+      ? "<strong>Correct.</strong> That is <em>" + TAXMAP[item.tag].code + " &middot; " + TAXMAP[item.tag].name + "</em> under control. The reason for every option is now shown beneath it."
+      : "<strong>Not this one.</strong> " + item.opts[chosen].why + " <span class='alts'>The intended answer is <b>" + right.t + "</b> &mdash; full reasoning is now shown beneath each option.</span>";
+  } else {
+    const why = document.getElementById("why-" + id);
+    if(why) why.hidden = false;
+    fb.className = "fb " + (ok ? "ok" : "no");
+    let html = ok ? "<strong>Correct.</strong>" : "<strong>Not yet.</strong>";
+    html += "<span class='model'>Intended answer: " + item.model + "</span>";
+    if(item.alts && item.alts.length){
+      html += "<span class='alts'><b>Also accepted:</b> " + item.alts.join(" ") + "</span>";
+    }
+    fb.innerHTML = html;
+  }
+
+  save();
+  refreshProgress();
+  renderDashboard();
+  renderNextStep();
+}
+
+function stripTags(s){ return s; }
+
+/* ---------- progress ---------- */
+function refreshProgress(){
+  const answered = ITEMS.filter(isAnswered).length;
+  const pct = Math.round((answered / TOTAL) * 100);
+  const fill = document.getElementById("pfill");
+  const txt = document.getElementById("ptext");
+  const meter = document.getElementById("pmeter");
+  if(fill) fill.style.width = pct + "%";
+  if(txt) txt.textContent = answered + " of " + TOTAL + " answered";
+  if(meter) meter.setAttribute("aria-valuenow", String(answered));
+
+  const entryAnswered = ITEMS.filter(function(i){ return i.sec === "entry" && isAnswered(i); }).length;
+  const ec = document.getElementById("entryCount");
+  if(ec) ec.textContent = entryAnswered + " of 10 answered";
+}
+
+/* ---------- stats ---------- */
+function stats(){
+  const byTag = {};
+  TAX.forEach(function(t){ byTag[t.code] = { n:0, c:0 }; });
+  let n = 0, c = 0;
+  ITEMS.forEach(function(i){
+    if(!state.checked[i.id]) return;
+    n++; byTag[i.tag].n++;
+    if(isCorrect(i)){ c++; byTag[i.tag].c++; }
+  });
+  return { n:n, c:c, byTag:byTag };
+}
+
+function weakestTag(minN){
+  const s = stats();
+  const order = ["T1","T5","T3","T4","T6","T2"];
+  let best = null, bestPct = 2;
+  order.forEach(function(code){
+    const d = s.byTag[code];
+    if(d.n < (minN || 2)) return;
+    const pct = d.c / d.n;
+    if(pct < bestPct - 0.0001){ bestPct = pct; best = code; }
+  });
+  if(best && bestPct < 1) return best;
+  /* fallback: any tag with an error at all */
+  let alt = null;
+  order.forEach(function(code){
+    if(alt) return;
+    const d = s.byTag[code];
+    if(d.n > 0 && d.c < d.n) alt = code;
+  });
+  if(alt) return alt;
+  return s.n >= 6 ? "OK" : null;
+}
+
+/* ---------- dashboard ---------- */
+function renderDashboard(){
+  const s = stats();
+  const kpi = document.getElementById("kpiGrid");
+  const acc = s.n ? Math.round((s.c / s.n) * 100) : 0;
+  const auditTicked = AUDIT.filter(function(a){ return state.audit[a.id]; }).length;
+
+  let strongest = "—", weakest = "—";
+  const scored = TAX.filter(function(t){ return s.byTag[t.code].n >= 2; });
+  if(scored.length){
+    const sorted = scored.slice().sort(function(a,b){
+      return (s.byTag[b.code].c / s.byTag[b.code].n) - (s.byTag[a.code].c / s.byTag[a.code].n);
+    });
+    strongest = sorted[0].code + " " + sorted[0].name;
+    weakest = sorted[sorted.length-1].code + " " + sorted[sorted.length-1].name;
+    if(sorted.length === 1) weakest = "Needs more items";
+  }
+
+  kpi.innerHTML = "";
+  [
+    { n: s.n + " / " + TOTAL, l:"Items checked", d:"Nothing is scored until you press Check, so the figures below reflect graded work only." },
+    { n: s.n ? acc + "%" : "—", l:"Accuracy so far", d:"Across every graded item on the page. This is a practice figure, not a band." },
+    { n: strongest === "—" ? "—" : strongest.split(" ")[0], l:"Strongest pattern", d: strongest === "—" ? "Check at least two items in one category." : strongest.replace(/^T\d\s/,"") },
+    { n: weakest === "—" ? "—" : (weakest === "Needs more items" ? "—" : weakest.split(" ")[0]), l:"Weakest pattern", d: (weakest === "—" || weakest === "Needs more items") ? "Check items across more categories." : weakest.replace(/^T\d\s/,"") },
+    { n: auditTicked + " / 8", l:"Speaking self-audit", d:"Self-reported, from the transfer task. Not counted in the accuracy figure above." }
+  ].forEach(function(k){
+    const c = el("div","kpi");
+    c.appendChild(el("div","kn",k.n));
+    c.appendChild(el("div","kl",k.l));
+    c.appendChild(el("div","kd",k.d));
+    kpi.appendChild(c);
+  });
+
+  const bars = document.getElementById("barsBox");
+  bars.innerHTML = "";
+  TAX.forEach(function(t){
+    const d = s.byTag[t.code];
+    const pct = d.n ? Math.round((d.c/d.n)*100) : 0;
+    const row = el("div","barrow");
+    const lab = el("div","barlab");
+    lab.innerHTML = '<span class="bn"><code>' + t.code + '</code>' + t.name + '</span>' +
+      '<span class="bv">' + (d.n ? d.c + " of " + d.n + " correct &middot; " + pct + "%" : "not attempted yet") + "</span>";
+    const track = el("div","track");
+    const span = document.createElement("span");
+    let cls = "none";
+    if(d.n >= 2){ cls = pct >= 80 ? "hi" : (pct >= 50 ? "mid" : "lo"); }
+    span.className = cls;
+    span.style.width = (d.n ? Math.max(pct, 2) : 0) + "%";
+    track.appendChild(span);
+    track.setAttribute("role","img");
+    track.setAttribute("aria-label", t.code + " " + t.name + ": " + (d.n ? d.c + " of " + d.n + " correct, " + pct + " per cent" : "not attempted"));
+    row.appendChild(lab); row.appendChild(track);
+    bars.appendChild(row);
+  });
+
+  /* confidence quadrant — entry items only */
+  const q = { cw:0, cc:0, uw:0, uc:0 };
+  ITEMS.filter(function(i){ return i.sec === "entry" && state.checked[i.id]; }).forEach(function(i){
+    const sure = state.conf[i.id] === "sure";
+    const ok = isCorrect(i);
+    if(sure && ok) q.cc++; else if(sure && !ok) q.cw++;
+    else if(!sure && ok) q.uc++; else q.uw++;
+  });
+  const quad = document.getElementById("quadBox");
+  quad.innerHTML = "";
+  [
+    { n:q.cw, l:"Confident &amp; wrong", d:"Blind spots. Highest priority — you would never have checked these.", cls:"blind" },
+    { n:q.cc, l:"Confident &amp; correct", d:"Secure. Leave these alone and spend the time elsewhere.", cls:"secure" },
+    { n:q.uw, l:"Unsure &amp; wrong", d:"Not yet learned. Honest, and the easiest kind to fix.", cls:"gap" },
+    { n:q.uc, l:"Unsure &amp; correct", d:"Fragile. You have the rule but not the automaticity yet.", cls:"fragile" }
+  ].forEach(function(x){
+    const c = el("div","qc " + x.cls);
+    c.appendChild(el("div","qn",String(x.n)));
+    c.appendChild(el("div","ql",x.l));
+    c.appendChild(el("div","qd",x.d));
+    quad.appendChild(c);
+  });
+}
+
+/* ---------- next step ---------- */
+function renderNextStep(){
+  const code = weakestTag(2);
+  const title = document.getElementById("nsTitle");
+  const sub = document.getElementById("nsSub");
+  const body = document.getElementById("nsBody");
+  if(!code){
+    title.textContent = "Complete the entry check to unlock this panel";
+    sub.textContent = "Your weakest pattern is calculated from every item you check on this page.";
+    body.innerHTML = '<p style="color:var(--ink-2);font-size:.95rem;margin:0">Answer and score at least a few items above, and this panel will name the single pattern that is costing you the most, with a ten-minute drill and a Speaking micro-task built around it.</p>';
+    return;
+  }
+  const d = NEXT[code];
+  const s = stats();
+  const tally = (code !== "OK" && s.byTag[code]) ? (s.byTag[code].c + " of " + s.byTag[code].n + " correct in this category") : "based on your graded work across the page";
+  title.innerHTML = d.title;
+  sub.innerHTML = (code === "OK" ? "Calculated from every item you have checked" : "Code " + code + " &middot; " + tally);
+  body.innerHTML =
+    '<div class="nsblock"><h4>What is happening</h4><p>' + d.what + '</p></div>' +
+    '<div class="nsblock"><h4>The one rule</h4><p>' + d.rule + '</p></div>' +
+    '<div class="nsblock drill"><h4>Ten-minute drill &mdash; out loud, not written</h4><ul>' +
+      d.drill.map(function(x){ return "<li>" + x + "</li>"; }).join("") + '</ul></div>' +
+    '<div class="nsblock"><h4>Speaking micro-task before your next lesson</h4><p>' + d.micro + '</p></div>' +
+    '<div class="nsblock"><p style="font-size:.86rem;color:var(--ink-3)">This is practice feedback generated from your answers on this page. It is not an IELTS assessment and does not correspond to a band score.</p></div>';
+}
+
+/* ---------- entry check scoring & adaptive path ---------- */
+function scoreEntry(){
+  const entry = ITEMS.filter(function(i){ return i.sec === "entry"; });
+  entry.forEach(function(i){ if(isAnswered(i)) checkItem(i.id); });
+
+  const done = entry.filter(function(i){ return state.checked[i.id]; });
+  const box = document.getElementById("pathBox");
+  const t = document.getElementById("pathTitle");
+  const b = document.getElementById("pathBody");
+  const ol = document.getElementById("pathSteps");
+  box.hidden = false;
+
+  if(done.length < 5){
+    t.textContent = "Answer a few more before routing";
+    b.innerHTML = "You have scored " + done.length + " of 10. The routing below needs at least five graded items to be worth anything &mdash; keep going.";
+    ol.innerHTML = "";
+    box.scrollIntoView({ behavior: prefersReduced() ? "auto" : "smooth", block:"start" });
+    return;
+  }
+
+  const wrong = done.filter(function(i){ return !isCorrect(i); });
+  const score = done.length - wrong.length;
+  const errBy = {}; TAX.forEach(function(x){ errBy[x.code] = 0; });
+  wrong.forEach(function(i){ errBy[i.tag]++; });
+  const blind = done.filter(function(i){ return state.conf[i.id] === "sure" && !isCorrect(i); }).length;
+
+  const frameErr = errBy.T1 + errBy.T5;
+  const durErr = errBy.T3 + errBy.T6;
+  let path, steps;
+
+  if(wrong.length <= 2){
+    path = { n:"Path C &mdash; consolidation and transfer",
+      b:"You scored " + score + " of " + done.length + ". The rules are largely in place, so grinding through every practice item would be a poor use of your 45 minutes. Your gains from here come from range and from holding the frame under pressure, not from more correction." };
+    steps = [
+      "Read the three teaching tables quickly &mdash; five minutes, not eight.",
+      "Skip Stage 1 (Notice) and Stage 2 (Choose). Start the practice at <strong>Stage 3, Repair</strong>.",
+      "Spend the time you save on <strong>Stage 5, Apply</strong> and on the Speaking transfer task, where the frame has to survive real content.",
+      "Record the Part 2 long turn and listen back specifically for the moment you change tense."
+    ];
+  } else if(frameErr >= durErr){
+    path = { n:"Path A &mdash; finished time and frame control",
+      b:"You scored " + score + " of " + done.length + ", and your errors cluster in T1 and T5: the present perfect is attaching itself to finished-time markers, and the frame is slipping in follow-up turns. This is the most common profile at 5.5, and it is also the fastest to move." };
+    steps = [
+      "Read Table 3 and the rule box carefully. That single rule covers most of what you just got wrong.",
+      "Do the full <strong>Notice</strong> stage &mdash; it is short and it builds the reflex of reading the time expression before choosing the verb.",
+      "Work carefully through <strong>Choose</strong> and <strong>Apply</strong>. Skim Produce if time is short.",
+      "In the Speaking transfer, focus on Part 1 question 2 and the Part 3 questions, where the examiner sets the frame for you."
+    ];
+  } else {
+    path = { n:"Path B &mdash; duration, states and form",
+      b:"You scored " + score + " of " + done.length + ", and your errors cluster in T3 and T6: durations running up to now, and the verb form after <em>have</em> or <em>has</em>. If your first language is Turkish, the duration half of this is structural transfer rather than carelessness &mdash; and structural problems respond well to rules." };
+    steps = [
+      "Read the Turkish L1 box and Table 1 (Form) before anything else.",
+      "Do the whole <strong>Notice</strong> stage, then go straight to <strong>Repair</strong> and <strong>Produce</strong> &mdash; those two stages target exactly this profile.",
+      "Say every repair answer out loud before you type it. The form problem is a speech habit, so fixing it silently will not transfer.",
+      "In the Speaking transfer, use Part 1 question 2 and Part 3 question 1, then check items AU3, AU6 and AU7 in the self-audit."
+    ];
+  }
+
+  if(blind > 0){
+    steps.push("You were <strong>confident and wrong on " + blind + " item" + (blind===1?"":"s") + "</strong>. Read the rationale on each of those before moving on &mdash; a confident error is the one you will never catch by yourself.");
+  }
+
+  t.innerHTML = path.n;
+  b.innerHTML = path.b;
+  ol.innerHTML = steps.map(function(x){ return "<li>" + x + "</li>"; }).join("");
+
+  state.entryScored = true;
+  save();
+  renderDashboard();
+  renderNextStep();
+  box.scrollIntoView({ behavior: prefersReduced() ? "auto" : "smooth", block:"start" });
+}
+
+function prefersReduced(){
+  return window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+}
+
+/* ---------- static blocks ---------- */
+function renderTaxonomy(){
+  const g = document.getElementById("taxGrid");
+  g.innerHTML = "";
+  TAX.forEach(function(t){
+    const c = el("div","tax");
+    c.innerHTML = '<span class="code">' + t.code + '</span><h4>' + t.name + '</h4><p>' + t.desc +
+      '</p><p class="egs"><span class="bad">' + t.bad + '</span><br><span class="good">' + t.good + '</span></p>';
+    g.appendChild(c);
+  });
+}
+
+function renderPairs(){
+  const box = document.getElementById("pairsList");
+  box.innerHTML = "";
+  PAIRS.forEach(function(p, i){
+    const wrap = el("div","pair");
+    const bid = "pair-body-" + i;
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.setAttribute("aria-expanded","false");
+    btn.setAttribute("aria-controls", bid);
+    btn.innerHTML = '<span class="pair-sents"><span data-lab="A">' + p.a + '</span><span data-lab="B">' + p.b + '</span></span><span class="chev">Difference</span>';
+    const body = el("div","pair-body", p.body);
+    body.id = bid; body.hidden = true;
+    btn.addEventListener("click", function(){
+      const open = btn.getAttribute("aria-expanded") === "true";
+      btn.setAttribute("aria-expanded", open ? "false" : "true");
+      body.hidden = open;
+      btn.querySelector(".chev").textContent = open ? "Difference" : "Hide";
+    });
+    wrap.appendChild(btn); wrap.appendChild(body);
+    box.appendChild(wrap);
+  });
+}
+
+function renderAudit(){
+  const box = document.getElementById("auditList");
+  box.innerHTML = "";
+  AUDIT.forEach(function(a){
+    const lab = el("label","chk");
+    const inp = document.createElement("input");
+    inp.type = "checkbox"; inp.id = a.id;
+    inp.checked = !!state.audit[a.id];
+    if(inp.checked) lab.classList.add("sel");
+    inp.addEventListener("change", function(){
+      state.audit[a.id] = inp.checked;
+      lab.classList.toggle("sel", inp.checked);
+      save(); renderDashboard();
+    });
+    lab.appendChild(inp);
+    lab.appendChild(el("span", null, "<code>" + a.tag + "</code>" + a.t));
+    box.appendChild(lab);
+  });
+}
+
+function renderTeacher(){
+  const ib = document.getElementById("interpBody");
+  ib.innerHTML = "";
+  TAX.concat([{ code:"OK", name:"All patterns at or near ceiling" }]).forEach(function(t){
+    const d = INTERP[t.code];
+    if(!d) return;
+    const tr = document.createElement("tr");
+    tr.innerHTML = "<th scope='row'>" + (t.code === "OK" ? "" : "<code>" + t.code + "</code> ") + t.name + "</th><td>" + d.mean + "</td><td>" + d.next + "</td>";
+    ib.appendChild(tr);
+  });
+
+  const sb = document.getElementById("scriptBox");
+  sb.innerHTML = "";
+  SCRIPTS.forEach(function(s){
+    const c = el("div","script");
+    c.innerHTML = '<div class="sh">' + s.h + '</div><p class="say">' + s.say + '</p><p class="meta">' + s.meta + '</p>';
+    sb.appendChild(c);
+  });
+
+  const kb = document.getElementById("keyBody");
+  kb.innerHTML = "";
+  ITEMS.forEach(function(i){
+    const tr = document.createElement("tr");
+    let ans, rat;
+    if(i.type === "mc"){
+      const correct = i.opts.find(function(o){ return o.ok; });
+      ans = correct.t;
+      rat = "<b class='g'>Correct:</b> " + correct.why + "<ul>" +
+        i.opts.filter(function(o){ return !o.ok; }).map(function(o){
+          return "<li><b>&ldquo;" + o.t + "&rdquo;</b> &mdash; " + o.why + "</li>";
+        }).join("") + "</ul>";
+    } else if(i.type === "text"){
+      ans = i.model;
+      rat = "<b class='g'>Rationale:</b> " + i.why + (i.alts && i.alts.length ? "<ul><li><b class='g'>Accepted variants:</b> " + i.alts.join(" ") + "</li></ul>" : "");
+    } else {
+      ans = i.model;
+      rat = "<b class='g'>Rationale:</b> " + i.why + "<ul>" + i.gaps.map(function(g){
+        return "<li><b class='g'>" + g.lab + ":</b> accepted &mdash; " + g.accept.map(function(x){ return "<em>" + x + "</em>"; }).join(", ") + "</li>";
+      }).join("") + "</ul>";
+    }
+    tr.innerHTML = "<td class='k-id'>" + i.id + "<br><span style='font-size:.9em;opacity:.7'>" + i.sec + "</span></td>" +
+      "<td class='k-tag'><code>" + i.tag + "</code></td>" +
+      "<td class='k-ans'>" + ans + "</td><td>" + rat + "</td>";
+    kb.appendChild(tr);
+  });
+}
+
+/* ---------- restore checked visuals ---------- */
+function restoreChecked(){
+  ITEMS.forEach(function(i){
+    if(state.checked[i.id] && isAnswered(i)) checkItem(i.id);
+  });
+}
+
+/* ---------- Part 2 timer ---------- */
+(function(){
+  let mode = "idle", left = 60, tick = null;
+  const clock = document.getElementById("clock");
+  const phase = document.getElementById("phase");
+  const btn = document.getElementById("btnTimer");
+  const rst = document.getElementById("btnTimerReset");
+  const say = document.getElementById("timerAnnounce");
+  if(!clock) return;
+
+  function fmt(s){ const m = Math.floor(s/60), r = s%60; return m + ":" + (r<10?"0":"") + r; }
+  function paint(){
+    clock.textContent = fmt(left);
+    if(mode === "idle"){ phase.textContent = "Preparation — not started"; phase.classList.remove("live"); btn.textContent = "Start preparation"; }
+    if(mode === "prep"){ phase.textContent = "Preparation — make notes"; phase.classList.add("live"); btn.textContent = "Pause"; }
+    if(mode === "talk"){ phase.textContent = "Speaking — keep going"; phase.classList.add("live"); btn.textContent = "Pause"; }
+    if(mode === "paused"){ phase.textContent = "Paused"; phase.classList.remove("live"); btn.textContent = "Resume"; }
+    if(mode === "done"){ phase.textContent = "Finished — 2 minutes complete"; phase.classList.remove("live"); btn.textContent = "Start again"; }
+  }
+  function stop(){ if(tick){ clearInterval(tick); tick = null; } }
+  function run(){
+    stop();
+    tick = setInterval(function(){
+      left--;
+      if(left <= 0){
+        if(mode === "prep"){ mode = "talk"; left = 120; say.textContent = "Preparation finished. Start speaking now. Two minutes."; }
+        else { mode = "done"; left = 0; stop(); say.textContent = "Two minutes complete. Stop there."; }
+      }
+      paint();
+    }, 1000);
+  }
+  let prev = "prep";
+  btn.addEventListener("click", function(){
+    if(mode === "idle" || mode === "done"){ mode = "prep"; left = 60; prev = "prep"; say.textContent = "Preparation started. One minute."; run(); }
+    else if(mode === "paused"){ mode = prev; run(); }
+    else { prev = mode; mode = "paused"; stop(); }
+    paint();
+  });
+  rst.addEventListener("click", function(){ stop(); mode = "idle"; left = 60; say.textContent = "Timer reset."; paint(); });
+  paint();
+})();
+
+/* ---------- global controls ---------- */
+document.getElementById("btnScoreEntry").addEventListener("click", scoreEntry);
+
+document.getElementById("btnRationales").addEventListener("click", function(){
+  state.showAll = !state.showAll;
+  this.setAttribute("aria-pressed", state.showAll ? "true" : "false");
+  this.querySelector(".t-full").textContent = state.showAll ? "Hide all rationales" : "Show all rationales";
+  this.querySelector(".t-short").textContent = state.showAll ? "Hide" : "Rationales";
+  document.querySelectorAll(".why").forEach(function(w){ w.hidden = !state.showAll; });
+  document.querySelectorAll(".itemfoot .btn.ghost").forEach(function(b){
+    b.setAttribute("aria-pressed", state.showAll ? "true" : "false");
+    b.textContent = state.showAll ? "Hide rationale" : "Show rationale";
+  });
+  save();
+});
+
+document.getElementById("btnReset").addEventListener("click", function(){
+  state = { ans:{}, conf:{}, checked:{}, audit:{}, entryScored:false, showAll:false };
+  try { localStorage.removeItem(LS_KEY); } catch(e){}
+  boot(true);
+  const p = document.getElementById("pathBox");
+  if(p) p.hidden = true;
+  window.scrollTo({ top:0, behavior: prefersReduced() ? "auto" : "smooth" });
+});
+
+const tBtn = document.getElementById("btnTeacher");
+tBtn.addEventListener("click", function(){
+  const body = document.getElementById("teacherBody");
+  const open = tBtn.getAttribute("aria-expanded") === "true";
+  body.hidden = open;
+  tBtn.setAttribute("aria-expanded", open ? "false" : "true");
+  tBtn.textContent = open ? "Show teacher key" : "Hide teacher key";
+});
+
+document.getElementById("btnPrintLearner").addEventListener("click", function(){
+  document.body.setAttribute("data-print","learner");
+  window.print();
+});
+document.getElementById("btnPrintTeacher").addEventListener("click", function(){
+  document.getElementById("teacherBody").hidden = false;
+  tBtn.setAttribute("aria-expanded","true");
+  tBtn.textContent = "Hide teacher key";
+  document.body.setAttribute("data-print","teacher");
+  window.print();
+});
+window.addEventListener("afterprint", function(){ document.body.setAttribute("data-print","learner"); });
+
+/* ---------- boot ---------- */
+function boot(skipLoad){
+  if(!skipLoad) load();
+  renderTaxonomy();
+  renderPairs();
+  renderAudit();
+  renderTeacher();
+
+  [["entry","list-entry"],["notice","list-notice"],["choose","list-choose"],
+   ["repair","list-repair"],["produce","list-produce"],["apply","list-apply"]].forEach(function(pair){
+    const box = document.getElementById(pair[1]);
+    box.innerHTML = "";
+    ITEMS.filter(function(i){ return i.sec === pair[0]; }).forEach(function(i, idx){
+      box.appendChild(buildItem(i, idx));
+    });
+  });
+
+  const rb = document.getElementById("btnRationales");
+  rb.setAttribute("aria-pressed", state.showAll ? "true" : "false");
+  rb.querySelector(".t-full").textContent = state.showAll ? "Hide all rationales" : "Show all rationales";
+  rb.querySelector(".t-short").textContent = state.showAll ? "Hide" : "Rationales";
+
+  refreshProgress();
+  restoreChecked();
+  renderDashboard();
+  renderNextStep();
+  if(state.entryScored){
+    /* keep the routing panel available after a reload without re-scrolling */
+    const done = ITEMS.filter(function(i){ return i.sec === "entry" && state.checked[i.id]; });
+    if(done.length >= 5){
+      const box = document.getElementById("pathBox");
+      if(box && box.hidden){ /* recompute silently */ }
+    }
+  }
+}
+boot();
+
+</script>
+</body>
+</html>
